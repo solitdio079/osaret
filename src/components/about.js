@@ -21,7 +21,7 @@ const About = () => {
                   afin de consolider ces acquis que le Cabinet OSARET a été créé
                   par M. Fayké Papus SISSOKO, sociologue et expert en  en stratégie de prévention
                   de la radicalisation et de l’extrémisme violent menant au
-                  terrorisme. Le cabinet est enregistré sous le numéro 11111/NIF
+                  terrorisme. Le cabinet est enregistré sous le numéro 42509191889097D,RCCM :MA.BKO.2525.5824
                   en République du Mali.
             </p>
           </div>
