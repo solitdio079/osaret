@@ -24,13 +24,9 @@ export default function ScrollLogos() {
                   <img className="h-16" src={service} alt="partner logo"/>
             )}
         </div>
-        <div className="flex flex-nowrap gap-6 animate-logo">
-        {services.map(service => 
-                  <img className="h-16" src={service} alt="partner logo"/>
-            )}
-        </div>
      
-       ß
+     
+       
       </div>
     );
   }

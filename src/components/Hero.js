@@ -63,7 +63,7 @@ const Hero = () => {
 
               </p>
   
-              <Link to="/hakkımızda" className="btn z-1 btn-primary btn-gradient btn-lg intersect:motion-preset-slide-right intersect:motion-delay-[800ms] intersect:motion-ease-spring-bouncier">
+              <Link to="/about" className="btn z-1 btn-primary btn-gradient btn-lg intersect:motion-preset-slide-right intersect:motion-delay-[800ms] intersect:motion-ease-spring-bouncier">
               A Propos
                 <span className="icon-[tabler--arrow-right] size-5 rtl:rotate-180"></span>
               </Link>

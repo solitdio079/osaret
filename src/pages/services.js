@@ -82,7 +82,7 @@ const Services = () => {
         <div className="flex gap-6 flex-nowrap overflow-hidden ">
         <div className="grid gap-6 md:grid-cols-3">
           {services.map((service) => (
-            <div className="card intersect:motion-preset-slide-left intersect:motion-delay-[400ms] intersect:motion-ease-spring-bouncier  min-w-sm card-border hover:border-primary transition-border h-full shadow-none duration-300">
+            <div className="card intersect:motion-preset-slide-left intersect:motion-delay-[400ms] intersect:motion-ease-spring-bouncier  min-w-60 card-border hover:border-primary transition-border h-full shadow-none duration-300">
               <div className="card-body gap-5">{service}</div>
             </div>
           ))}
