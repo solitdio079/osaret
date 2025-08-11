@@ -48,6 +48,11 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
+              <Link className="dropdown-item" to="#">
+                Nos Projets
+              </Link>
+            </li>
+            <li>
               <Link className="dropdown-item" to="/contact">
                 Contact
               </Link>
