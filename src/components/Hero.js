@@ -1,6 +1,10 @@
 import * as React from "react"
 import {Link} from "gatsby"
 import heroBg from "./hero-bg.jpeg"
+import partner1 from "../images/partner1.jpg"
+import partner2 from "../images/partner2.jpg"
+import partner3 from "../images/partner3.jpg"
+import ScrollLogos from "./scroolLogos"
 //import ScrollCards from "./scrollCards"
 const Hero = () => {
     return (
@@ -64,8 +68,9 @@ const Hero = () => {
                 <span className="icon-[tabler--arrow-right] size-5 rtl:rotate-180"></span>
               </Link>
             </div>
-            <div className="flex justify-center gap-6 flex-nowrap overflowy-x-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_50px,_black_calc(100%-50px),transparent_100%)]">
+            <div className="flex flex-col items-center justify-center gap-6 flex-nowrap overflowy-x-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_50px,_black_calc(100%-50px),transparent_100%)]">
               <h1 className="text-white text-lg font-bold mb-5">Nos Partenaires</h1>
+              <ScrollLogos/>
             </div>
           </div>
         </main>
