@@ -6,7 +6,7 @@ import ObjectifCard from "../components/ObjectifCard";
 import Organigrame from "../components/Organigrane";
 import ScrollCards from "../components/scrollCards";
 import Seo from "../components/Seo";
-
+import firstImg from "../images/02.jpeg"
 const IndexPage = () => {
   return (
     <Layout>
@@ -75,7 +75,7 @@ const IndexPage = () => {
             <div>
               <img
                 className="mask mask-parallelogram intersect:motion-preset-slide-right intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier"
-                src="https://le-site-francais.fr/wp-content/uploads/2023/05/portrait-leader-reussi.jpg"
+                src={firstImg}
                 alt=""
               />
             </div>

@@ -2,6 +2,7 @@ import * as React from "react";
 import Layout from "../components/Layout";
 
 import Seo from "../components/Seo";
+import firstImg from "../images/05.jpeg"
 
 const Contact = () => {
   return (
@@ -18,7 +19,7 @@ const Contact = () => {
 
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <img
-              src="https://cdn.flyonui.com/fy-assets/blocks/marketing-ui/contact/contact-8.png"
+              src={firstImg}
               alt="Contact illustration"
               className="size-full rounded-none intersect:motion-preset-slide-left intersect:motion-delay-[100ms] intersect:motion-ease-spring-bouncier"
             />

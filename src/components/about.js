@@ -1,5 +1,6 @@
 import * as React from "react";
-
+import firstImg from "../images/03.jpeg"
+import secondImg from "../images/05.jpeg"
 const About = () => {
   return (
     <>
@@ -35,7 +36,7 @@ const About = () => {
               className="grid md:grid-cols-2 gap-12 items-center justify-center mb-12"
             >
               <div>
-                <img  className="mask mask-parallelogram intersect:motion-preset-slide-left intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier" src="https://cdn.flyonui.com/fy-assets/blocks/marketing-ui/about/about-13.png" />
+                <img  className="mask mask-parallelogram intersect:motion-preset-slide-left intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier" src={secondImg} />
               </div>
               <div className="flex flex-col gap-6">
                 <h2 className="text-xl lg:text-2xl intersect:motion-preset-slide-right intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier">
@@ -64,7 +65,7 @@ const About = () => {
                
               </div>
               <div>
-                <img  className="mask mask-parallelogram intersect:motion-preset-slide-right intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier" src="https://cdn.flyonui.com/fy-assets/blocks/marketing-ui/about/about-2.png" />
+                <img  className="mask mask-parallelogram intersect:motion-preset-slide-right intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier" src={firstImg} />
               </div>
             </div>
           </div>
@@ -87,7 +88,7 @@ const About = () => {
             <div className="card card-border hover:border-primary h-max shadow-none">
               <figure className="bg-base-200 pt-6">
                 <img
-                  src="https://cdn.flyonui.com/fy-assets/blocks/marketing-ui/team/team-6.png"
+                  src={secondImg}
                   alt="Phillip Bothman"
                   className="h-60 w-auto"
                 />
