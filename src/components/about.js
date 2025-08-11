@@ -19,7 +19,7 @@ const About = () => {
                   Ces échanges ont progressivement donné naissance à un pôle
                   d’expertise et de compétences reconnu dans ce domaine. C’est
                   afin de consolider ces acquis que le Cabinet OSARET a été créé
-                  par M. Fayké Papus SISSOKO, sociologue et expert en  en stratégies de prévention
+                  par M. Fayké Papus SISSOKO, sociologue et expert en  en stratégie de prévention
                   de la radicalisation et de l’extrémisme violent menant au
                   terrorisme. Le cabinet est enregistré sous le numéro 11111/NIF
                   en République du Mali.
