@@ -3,8 +3,11 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `osaret`,
+    title: `Cabinet OSARET`,
+    description: "Observatoire Sahélien d’Analyse, de Recherche et d’Étude sur le Terrorisme ",
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    'gatsby-plugin-postcss',
+  ],
 }
