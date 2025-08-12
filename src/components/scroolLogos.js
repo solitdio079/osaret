@@ -23,7 +23,7 @@ export default function ScrollLogos() {
           
          
         </div>
-        <div className="flex flex-nowrap gap-6 animate-logo mx-3">
+        <div className="hidden lg:flex flex-nowrap gap-6 animate-logo mx-3">
         {services.map(service => 
                   <img className="h-16" src={service} alt="partner logo"/>
             )}
