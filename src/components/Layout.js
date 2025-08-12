@@ -6,7 +6,7 @@ import Footer from "./Footer"
 import ObserverProvider from "./ObserverProvider"
 const Layout = ({children}) => {
     return (
-      <div data-theme="vscode">
+      <div data-theme="perplexity">
         <ObserverProvider>
         <Navbar/>
         {children}

@@ -182,7 +182,7 @@ const About = () => {
                     </p>
                     <span className="icon-[twemoji--flag-burkina-faso] size-8"></span>
                   </div>
-                  <p className="text-base-content/80"> +22676143242</p>
+                  <p className="text-base-content/80"> +226 76 14 32 42</p>
                 </div>
                 <div className="card-actions h-5 gap-3">
                   <a href="#" className="text-accent">

@@ -190,7 +190,7 @@ const IndexPage = () => {
           />
           <ShapedCard
             title={"Zones de miroir d’intervention"}
-            bgColor="bg-success/20"
+            bgColor="bg-success/80"
             borderColor="border-success"
             items={[
               "Zone des 3 frontières",

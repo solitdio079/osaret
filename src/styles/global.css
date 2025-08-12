@@ -8,7 +8,7 @@
 @source "flyonui/dist/index.js"; /* Require only if you want to use FlyonUI JS component */
 
 @plugin "flyonui/theme" {
-    name: "vscode";
+    name: "perplexity";
     default: true;
     --color-primary: #864F00;
     
@@ -64,4 +64,7 @@ body {
     @media (prefers-color-scheme: dark) {
         color-scheme: dark;
     }
+}
+*:not(.shaped){
+    @apply rounded-none;
 }
