@@ -1,5 +1,5 @@
 import * as React from "react";
-import firstImg from "../images/03.jpeg";
+import firstImg from "../images/vision.png";
 import secondImg from "../images/05.jpeg";
 import team1 from "../images/team1.jpeg";
 import team2 from "../images/team2.jpeg";
