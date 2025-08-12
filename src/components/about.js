@@ -81,7 +81,7 @@ const About = () => {
               Notre équipe
             </h2>
             <p className="text-base-content/80 text-xl">
-              Rencontrez les experts passionnés derrière notre succès et
+              Rencontrez les experts du Sahel passionnés derrière notre succès et
               découvrez-en davantage sur leurs rôles.
             </p>
           </div>
@@ -102,7 +102,7 @@ const About = () => {
                 <div className="divider"></div>
                 <div>
                   <div className="flex gap-3">
-                    <p className="text-base-content mb-1 font-medium">PDG</p>
+                    <p className="text-base-content mb-1 font-medium">Directeur Général</p>
                     <span className="icon-[twemoji--flag-mali] size-8"></span>
                   </div>
 
@@ -139,7 +139,7 @@ const About = () => {
                 <div>
                   <div className="flex gap-3">
                     <p className="text-base-content mb-1 font-medium">
-                      Socio-anthropologue
+                      Socio-anthropologue - Expert 
                     </p>
                     <span className="icon-[twemoji--flag-niger] size-8"></span>
                   </div>
@@ -178,7 +178,7 @@ const About = () => {
                 <div>
                 <div className="flex gap-3">
                     <p className="text-base-content mb-1 font-medium">
-                      Partenaire
+                      Sociologue - Expert
                     </p>
                     <span className="icon-[twemoji--flag-burkina-faso] size-8"></span>
                   </div>

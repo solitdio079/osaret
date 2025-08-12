@@ -1,6 +1,6 @@
 import * as React from "react"
 import {Link} from "gatsby"
-import heroBg from "./hero-bg.jpeg"
+import heroBg from "./heroBg.jpg"
 import partner1 from "../images/partner1.jpg"
 import partner2 from "../images/partner2.jpg"
 import partner3 from "../images/partner3.jpg"
