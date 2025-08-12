@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <div className="bg-base-100">
       <main className={`h-screen bg-linear-to-r from-cyan-500 to-blue-500 `}>
-        <div className="flex h-full lg:flex-row flex-col justify-between gap-18 overflow-x-hidden pt-20 md:gap-24 md:pt-25 lg:gap-15 lg:pt-27.5">
+        <div className="flex h-full lg:flex-row flex-col justify-between gap-18 overflow-x-hidden pt-20 md:gap-24 md:pt-20 lg:gap-15 lg:pt-10">
           <img src={heroBg} className="m-5 hidden lg:flex w-1/8" alt="soldiers fighting" />
           <div className="flex flex-col gap-12">
             <div className="mx-auto flex max-w-7xl flex-col items-center gap-8 justify-self-center px-4 text-center sm:px-6 lg:px-8">
@@ -20,7 +20,7 @@ const Hero = () => {
                   OSARET
                 </span>
               </div>
-              <h1 className="text-white text-shadow-lg intersect:motion-preset-slide-right intersect:motion-delay-[400ms] intersect:motion-ease-spring-bouncier relative z-1 text-5xl leading-[1.15] font-bold max-md:text-2xl md:max-w-3xl md:text-balance">
+              <h1 className="text-white text-shadow-lg intersect:motion-preset-slide-right intersect:motion-delay-[400ms] intersect:motion-ease-spring-bouncier relative z-1 text-4xl leading-[1.15] font-bold max-md:text-2xl md:max-w-3xl md:text-balance">
                 <span>
                   Observatoire Sahélien d’Analyse, de Recherche et d’Étude sur
                   le Terrorisme
@@ -57,7 +57,7 @@ const Hero = () => {
                   </defs>
                 </svg>
               </h1>
-              <p className="text-red-500 lg:text-shadow-2xl font-bold lg:text-2xl max-w-3xl z-1 intersect:motion-preset-slide-right intersect:motion-delay-[600ms] intersect:motion-ease-spring-bouncier">
+              <p className="text-red-500 lg:text-lg font-bold max-w-3xl z-1 intersect:motion-preset-slide-right intersect:motion-delay-[600ms] intersect:motion-ease-spring-bouncier">
                 Est un Cabinet de consultation indépendant, spécialisé dans
                 l’analyse, l’étude, de recherche appliquée sur le terrorisme au
                 Sahel.

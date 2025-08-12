@@ -11,7 +11,7 @@ const Navbar = () => {
               className="link flex text-base-content link-neutral text-xl font-bold no-underline"
               to="/"
             >
-             <img src={logo} alt="logo" className="w-20 lg:w-120"/>
+             <img src={logo} alt="logo" className="w-20 lg:w-98"/>
             </Link>
             <div className="md:hidden">
               <button
