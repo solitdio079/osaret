@@ -188,7 +188,18 @@ const IndexPage = () => {
               "Community manager (site web, réseaux sociaux)",
             ]}
           />
+         
           <ShapedCard
+            title={"Pole Crime organisé et transnational"}
+            items={[
+              "Trafic de stupéfiants, arme et Drogue",
+              "Financement du terrorisme",
+              "Economie criminelle (Contrebande, flux financiers illicites) ",
+              "Migrations irrégulières",
+              "Trafic traite humain",
+            ]}
+          />
+           <ShapedCard
             title={"Zones de miroir d’intervention"}
             bgColor="bg-success/80"
             borderColor="border-success"
@@ -198,16 +209,6 @@ const IndexPage = () => {
               "Grand Sahara & corridors",
               "Bande Sahélo sahélienne & méditerrané",
               "Zones de transit.",
-            ]}
-          />
-          <ShapedCard
-            title={"Pole Crime organisé et transnational"}
-            items={[
-              "Trafic de stupéfiants, arme et Drogue",
-              "Financement du terrorisme",
-              "Economie criminelle (Contrebande, flux financiers illicites) ",
-              "Migrations irrégulières",
-              "Trafic traite humain",
             ]}
           />
         </div>
