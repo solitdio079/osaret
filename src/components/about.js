@@ -1,6 +1,7 @@
 import * as React from "react";
 import firstImg from "../images/03.jpeg"
 import secondImg from "../images/05.jpeg"
+import team1 from "../images/team1.jpeg"
 const About = () => {
   return (
     <>
@@ -112,7 +113,7 @@ const About = () => {
             <div className="card card-border hover:border-primary h-max shadow-none">
               <figure className="bg-base-200 pt-6">
                 <img
-                  src="https://cdn.flyonui.com/fy-assets/blocks/marketing-ui/team/team-7.png"
+                  src={team1}
                   alt="James Kenter"
                   className="h-60 w-auto"
                 />

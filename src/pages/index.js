@@ -7,6 +7,7 @@ import Organigrame from "../components/Organigrane";
 import ScrollCards from "../components/scrollCards";
 import Seo from "../components/Seo";
 import firstImg from "../images/02.jpeg"
+import ShapedCard from "../components/shapedCard";
 const IndexPage = () => {
   return (
     <Layout>
@@ -142,6 +143,73 @@ const IndexPage = () => {
         </div>
         <div className="grid items-center gap-12 md:grid-cols-1">
           <ScrollCards />
+        </div>
+      </div>
+
+      <div>
+        <div className="relative mx-auto mb-12 w-fit sm:mb-16 lg:mb-24">
+          <h2 className="text-base-content text-2xl font-bold md:text-3xl lg:text-4xl">
+            Organigramme fonctionnel
+          </h2>
+          <span className="from-primary/40 to-primary/5 absolute start-0 top-9 h-1 w-full rounded-full bg-gradient-to-r"></span>
+        </div>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 px-20 my-10">
+          <ShapedCard
+            title={"Pole religion et terrorisme"}
+            items={[
+              "Fondamentalisme religieux (doctrine, tendance, croyance et sectarisme)",
+              "Dérive sectaire",
+              "Secte",
+              "Radicalisation en milieu carcéral",
+              "Ecoles coraniques et enfants talibés en lien avec la menace sécuritaire à travers des études prospectives.",
+            ]}
+          />
+          <ShapedCard
+            title={"Pôle formation et renforcement des capacités"}
+            items={[
+              "Responsable formation",
+              "Formateurs/experts thématiques (internes ou associés)",
+              "Chargé de logistique et planification des sessions",
+            ]}
+          />
+          <ShapedCard
+            title={"Pôle scientifique (études  recherche)"}
+            items={[
+              "Directeur scientifique",
+              "Coordinateur recherche",
+              "Chargés de recherche (sécurité, radicalisation, gouvernance, droits, conflits communautaires, humains, etc.)",
+            ]}
+          />
+          <ShapedCard
+            title={"Pôle communication et partenariat"}
+            items={[
+              "Responsable communication et relations publiques",
+              "Chargé des partenariats et réseaux",
+              "Community manager (site web, réseaux sociaux)",
+            ]}
+          />
+          <ShapedCard
+            title={"Zones de miroir d’intervention"}
+            bgColor="bg-success/20"
+            borderColor="border-success"
+            items={[
+              "Zone des 3 frontières",
+              "Basin du lac Tchad",
+              "Grand Sahara & corridors",
+              "Bande Sahélo sahélienne & méditerrané",
+              "Zones de transit.",
+            ]}
+          />
+          <ShapedCard
+            title={"Pole Crime organisé et transnational"}
+            items={[
+              "Trafic de stupéfiants, arme et Drogue",
+              "Financement du terrorisme",
+              "Economie criminelle (Contrebande, flux financiers illicites) ",
+              "Migrations irrégulières",
+              "Trafic traite humain",
+            ]}
+          />
         </div>
       </div>
 

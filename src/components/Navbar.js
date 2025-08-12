@@ -53,6 +53,16 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
+              <Link className="dropdown-item" to="#">
+                Nos Activites
+              </Link>
+            </li>
+            <li>
+              <Link className="dropdown-item" to="#">
+                Nos Rapports
+              </Link>
+            </li>
+            <li>
               <Link className="dropdown-item" to="/contact">
                 Contact
               </Link>
