@@ -12,7 +12,7 @@ const Hero = () => {
       <main className={`h-screen bg-linear-to-r from-cyan-500 to-blue-500 `}>
         <div className="flex h-full lg:flex-row flex-col justify-between gap-18 overflow-x-hidden pt-20 md:gap-24 md:pt-20 lg:gap-15 lg:pt-10">
           <img src={heroBg} className="m-5 hidden lg:flex w-1/8" alt="soldiers fighting" />
-          <div className="flex flex-col gap-12">
+          <div className="flex flex-col gap-6">
             <div className="mx-auto flex max-w-7xl flex-col items-center gap-8 justify-self-center px-4 text-center sm:px-6 lg:px-8">
               <div className="bg-base-200 intersect:motion-preset-slide-right intersect:motion-ease-spring-bouncier border-base-content/20 flex w-fit items-center gap-2.5 rounded-none border px-3 py-2">
                 <span className="text-base-content/80">Cabinet</span>
