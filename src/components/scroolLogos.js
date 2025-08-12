@@ -1,16 +1,17 @@
 import * as React from "react"
-import partner1 from "../images/partner1.jpg"
-import partner2 from "../images/partner2.jpg"
-import partner3 from "../images/partner3.jpg"
+import partner1 from "../images/aes.png"
+import partner2 from "../images/unicri.jpg"
+import partner3 from "../images/onudc.jpg"
+import partner4 from "../images/oua.png"
 const services = [
-  partner1,partner2, partner3
+  partner1,partner2, partner3, partner4
 ]
 
 
 export default function ScrollLogos() {
     return (
       <div className="flex gap-6 flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_50px,_black_calc(100%-50px),transparent_100%)]">
-        <div className="flex flex-nowrap gap-6 animate-logo">
+        <div className="flex flex-nowrap gap-6 animate-logo mx-6">
              
             {services.map(service => 
                   <img className="h-16" src={service} alt="partner logo"/>

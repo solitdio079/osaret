@@ -1,30 +1,29 @@
-import * as React from "react"
-import {Link} from "gatsby"
-import heroBg from "./heroBg.png"
-import partner1 from "../images/partner1.jpg"
-import partner2 from "../images/partner2.jpg"
-import partner3 from "../images/partner3.jpg"
-import ScrollLogos from "./scroolLogos"
+import * as React from "react";
+import { Link } from "gatsby";
+import heroBg from "./aks.png";
+import partner1 from "../images/partner1.jpg";
+import partner2 from "../images/partner2.jpg";
+import partner3 from "../images/partner3.jpg";
+import ScrollLogos from "./scroolLogos";
 //import ScrollCards from "./scrollCards"
 const Hero = () => {
-    return (
-        <div className="bg-base-100">
-        <main className={`h-screen relative bg-linear-to-r from-cyan-500 to-blue-500 `}>
-         
-          <div className="flex h-full flex-col justify-between gap-18 overflow-x-hidden pt-20 md:gap-24 md:pt-25 lg:gap-15 lg:pt-27.5">
+  return (
+    <div className="bg-base-100">
+      <main className={`h-screen bg-linear-to-r from-cyan-500 to-blue-500 `}>
+        <div className="flex h-full lg:flex-row flex-col justify-between gap-18 overflow-x-hidden pt-20 md:gap-24 md:pt-25 lg:gap-15 lg:pt-27.5">
+          <img src={heroBg} className="m-5 hidden lg:flex w-1/8" alt="soldiers fighting" />
+          <div className="flex flex-col gap-12">
             <div className="mx-auto flex max-w-7xl flex-col items-center gap-8 justify-self-center px-4 text-center sm:px-6 lg:px-8">
               <div className="bg-base-200 intersect:motion-preset-slide-right intersect:motion-ease-spring-bouncier border-base-content/20 flex w-fit items-center gap-2.5 rounded-none border px-3 py-2">
-              <span className="text-base-content/80">
-               
-               Cabinet
-               </span>
+                <span className="text-base-content/80">Cabinet</span>
                 <span className="badge badge-primary shrink-0 rounded-none">
                   OSARET
                 </span>
               </div>
-              <h1 className="text-white intersect:motion-preset-slide-right intersect:motion-delay-[400ms] intersect:motion-ease-spring-bouncier relative z-1 text-5xl leading-[1.15] font-bold max-md:text-2xl md:max-w-3xl md:text-balance">
+              <h1 className="text-white text-shadow-lg intersect:motion-preset-slide-right intersect:motion-delay-[400ms] intersect:motion-ease-spring-bouncier relative z-1 text-5xl leading-[1.15] font-bold max-md:text-2xl md:max-w-3xl md:text-balance">
                 <span>
-                Observatoire Sahélien d’Analyse, de Recherche et d’Étude sur le Terrorisme 
+                  Observatoire Sahélien d’Analyse, de Recherche et d’Étude sur
+                  le Terrorisme
                 </span>
                 <svg
                   width="223"
@@ -58,24 +57,32 @@ const Hero = () => {
                   </defs>
                 </svg>
               </h1>
-              <p className="text-white max-w-3xl z-1 intersect:motion-preset-slide-right intersect:motion-delay-[600ms] intersect:motion-ease-spring-bouncier">
-              est un Cabinet de consultation indépendant, spécialisé dans l’analyse, l’étude, de recherche appliquée sur le terrorisme au Sahel. 
-
+              <p className="text-red-500 lg:text-shadow-2xl font-bold lg:text-2xl max-w-3xl z-1 intersect:motion-preset-slide-right intersect:motion-delay-[600ms] intersect:motion-ease-spring-bouncier">
+                Est un Cabinet de consultation indépendant, spécialisé dans
+                l’analyse, l’étude, de recherche appliquée sur le terrorisme au
+                Sahel.
               </p>
-  
-              <Link to="/about" className="btn z-1 btn-primary btn-gradient btn-lg intersect:motion-preset-slide-right intersect:motion-delay-[800ms] intersect:motion-ease-spring-bouncier">
-              A Propos
+
+              <Link
+                to="/about"
+                className="btn z-1 btn-primary btn-gradient btn-lg intersect:motion-preset-slide-right intersect:motion-delay-[800ms] intersect:motion-ease-spring-bouncier"
+              >
+                A Propos
                 <span className="icon-[tabler--arrow-right] size-5 rtl:rotate-180"></span>
               </Link>
             </div>
             <div className="flex flex-col items-center justify-center gap-6 flex-nowrap overflowy-x-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_50px,_black_calc(100%-50px),transparent_100%)]">
-              <h1 className="text-white text-lg font-bold mb-5">Nos Partenaires</h1>
-              <ScrollLogos/>
+              <h1 className="text-white text-lg font-bold mb-5">
+                Nos Partenaires
+              </h1>
+              <ScrollLogos />
             </div>
           </div>
-        </main>
-      </div>
-    )
-}
+          <img src={heroBg} className="m-5  hidden lg:flex w-1/8" alt="soldiers fighting" />
+        </div>
+      </main>
+    </div>
+  );
+};
 
-export default Hero
+export default Hero;
