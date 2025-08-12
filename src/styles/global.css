@@ -10,7 +10,7 @@
 @plugin "flyonui/theme" {
     name: "perplexity";
     default: true;
-    --color-primary: #864F00;
+   
     
   }
 
