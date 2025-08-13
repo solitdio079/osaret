@@ -8,6 +8,7 @@ import ScrollCards from "../components/scrollCards";
 import Seo from "../components/Seo";
 import firstImg from "../images/02.jpeg";
 import ShapedCard from "../components/shapedCard";
+import News from "../components/news";
 const IndexPage = () => {
   return (
     <Layout>
@@ -210,6 +211,8 @@ const IndexPage = () => {
           />
         </div>
       </div>
+
+      <News/>
 
       <Organigrame />
 

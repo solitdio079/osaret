@@ -82,7 +82,7 @@ const Contact = () => {
                       Email
                     </h4>
                     <address className="text-base-content/80 text-center not-italic">
-                    cabinet@osaret.org
+                    contact@cabinet-osaret.org
                      
                     </address>
                   </div>
@@ -99,8 +99,8 @@ const Contact = () => {
                       Telephone
                     </h4>
                     <div className="text-center">
-                      <p className="text-base-content/80">+223 7659859 </p>
-                      <p className="text-base-content/80"> +223 66664545 </p>
+                      <p className="text-base-content/80">+223 76 90 81 81 </p>
+                      <p className="text-base-content/80"> +223 66 66 45 45 </p>
                     </div>
                   </div>
                 </div>

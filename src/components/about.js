@@ -4,6 +4,7 @@ import secondImg from "../images/05.jpeg";
 import topImg from "../images/02.jpeg";
 import team1 from "../images/team1.jpeg";
 import team2 from "../images/team2.jpeg";
+import team3 from "../images/team3.jpg";
 const About = () => {
   return (
     <>
@@ -224,23 +225,25 @@ const About = () => {
             <div className="card card-border hover:border-primary h-max shadow-none">
               <figure className="bg-base-200 pt-6">
                 <img
-                  src="https://cdn.flyonui.com/fy-assets/blocks/marketing-ui/team/team-5.png"
+                  src={team3}
                   alt="Alena Lubin"
                   className="h-60 w-auto"
                 />
               </figure>
               <div className="card-body gap-3">
                 <h3 className="text-base-content text-lg font-medium">
-                  Alena Lubin
+                Colonel ( AR) TABATE Makliwe
                 </h3>
                 <div className="divider"></div>
                 <div>
-                  <p className="text-base-content mb-1 font-medium">
-                    Frontend Developer
-                  </p>
-                  <p className="text-base-content/80">
-                    A visionary leader driving innovation and collaboration.
-                  </p>
+                <div className="flex gap-3">
+                    <p className="text-base-content mb-1 font-medium">
+                       Expert
+                    </p>
+                    <span className="icon-[twemoji--flag-togo] size-8"></span>
+                  </div>
+                  <p className="text-base-content/80"> +228 90 04 45 80</p>
+                  <p className="text-base-content/80"> madouele@gmail.com</p>
                 </div>
                 <div className="card-actions h-5 gap-3">
                   <a href="#" className="text-accent">
