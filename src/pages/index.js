@@ -6,7 +6,7 @@ import ObjectifCard from "../components/ObjectifCard";
 import Organigrame from "../components/Organigrane";
 import ScrollCards from "../components/scrollCards";
 import Seo from "../components/Seo";
-import firstImg from "../images/02.jpeg"
+import firstImg from "../images/02.jpeg";
 import ShapedCard from "../components/shapedCard";
 const IndexPage = () => {
   return (
@@ -66,10 +66,13 @@ const IndexPage = () => {
                   Ces échanges ont progressivement donné naissance à un pôle
                   d’expertise et de compétences reconnu dans ce domaine. C’est
                   afin de consolider ces acquis que le Cabinet OSARET a été créé
-                  par M. Fayké Papus SISSOKO, sociologue et expert en stratégie de prévention
-                  de la radicalisation et de l’extrémisme violent menant au
-                  terrorisme. Le cabinet est enregistré sous le numéro 42509191889097D,RCCM :MA.BKO.2525.5824
-                  en République du Mali.
+                  par M. Fayké Papus SISSOKO, sociologue et expert en stratégie
+                  de prévention de la radicalisation et de l’extrémisme violent
+                  menant au terrorisme. Le cabinet est enregistré sous le numéro
+                  42509191889097D,RCCM :MA.BKO.2525.5824 en République du Mali.
+                  Créer des partenariats et mobiliser des ressources pour
+                  soutenir les États du Sahel dans la prévention et la lutte
+                  contre le terrorisme
                 </p>
               </div>
             </div>
@@ -187,7 +190,7 @@ const IndexPage = () => {
               "Community manager (site web, réseaux sociaux)",
             ]}
           />
-         
+
           <ShapedCard
             title={"Pole Crime organisé et transnational"}
             items={[
@@ -198,7 +201,7 @@ const IndexPage = () => {
               "Trafic traite humain",
             ]}
           />
-           <ShapedCard
+          <ShapedCard
             title={"Zones de miroir d’intervention"}
             bgColor="bg-success/80"
             borderColor="border-success"

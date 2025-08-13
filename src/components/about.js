@@ -1,6 +1,7 @@
 import * as React from "react";
 import firstImg from "../images/vision.png";
 import secondImg from "../images/05.jpeg";
+import topImg from "../images/02.jpeg";
 import team1 from "../images/team1.jpeg";
 import team2 from "../images/team2.jpeg";
 const About = () => {
@@ -13,19 +14,38 @@ const About = () => {
               <span className="badge badge-soft badge-primary rounded-xl">
                 A Propos
               </span>
-              <p className="text-base-content/80 text-xl  intersect:motion-preset-slide-left  intersect:motion-delay-[300ms]">
-                Depuis 2021, plusieurs experts originaires du Sahel collaborent
-                de manière informelle dans le domaine de la prévention de la
-                radicalisation, de l’extrémisme violent et du terrorisme, à
-                travers des rencontres nationales et régionales. Ces échanges
-                ont progressivement donné naissance à un pôle d’expertise et de
-                compétences reconnu dans ce domaine. C’est afin de consolider
-                ces acquis que le Cabinet OSARET a été créé par M. Fayké Papus
-                SISSOKO, sociologue et expert en en stratégie de prévention de
-                la radicalisation et de l’extrémisme violent menant au
-                terrorisme. Le cabinet est enregistré sous le numéro
-                42509191889097D,RCCM :MA.BKO.2525.5824 en République du Mali.
-              </p>
+              <div className="grid gap-6 px-10 lg:grid-cols-2 motion-translate-y-in-100 motion-blur-in-md">
+                <div className="">
+                  <div className="space-y-4 mb-12">
+                  <h2 className="text-base-content text-2xl intersect:motion-preset-slide-left intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier font-semibold md:text-3xl lg:text-4xl">
+                  Historique
+                </h2>
+                    <p className="text-base-content/80 text-xl intersect:motion-preset-slide-left intersect:motion-delay-[500ms] intersect:motion-ease-spring-bouncier">
+                      Depuis 2021, plusieurs experts originaires du Sahel
+                      collaborent de manière informelle dans le domaine de la
+                      prévention de la radicalisation, de l’extrémisme violent
+                      et du terrorisme, à travers des rencontres nationales et
+                      régionales. Ces échanges ont progressivement donné
+                      naissance à un pôle d’expertise et de compétences reconnu
+                      dans ce domaine. C’est afin de consolider ces acquis que
+                      le Cabinet OSARET a été créé par M. Fayké Papus SISSOKO,
+                      sociologue et expert en en stratégie de prévention de la
+                      radicalisation et de l’extrémisme violent menant au
+                      terrorisme. Le cabinet est enregistré sous le numéro
+                      42509191889097D,RCCM :MA.BKO.2525.5824 en République du
+                      Mali.
+                      Créer des partenariats et mobiliser des ressources pour soutenir les États du Sahel dans la prévention et la lutte contre le terrorisme
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <img
+                    className="mask mask-parallelogram intersect:motion-preset-slide-right intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier"
+                    src={topImg}
+                    alt=""
+                  />
+                </div>
+              </div>
             </div>
 
             <div className="mt-3">
@@ -81,8 +101,8 @@ const About = () => {
               Notre équipe
             </h2>
             <p className="text-base-content/80 text-xl">
-              Rencontrez les experts du Sahel passionnés derrière notre succès et
-              découvrez-en davantage sur leurs rôles.
+              Rencontrez les experts du Sahel passionnés derrière notre succès
+              et découvrez-en davantage sur leurs rôles.
             </p>
           </div>
 
@@ -102,13 +122,13 @@ const About = () => {
                 <div className="divider"></div>
                 <div>
                   <div className="flex gap-3">
-                    <p className="text-base-content mb-1 font-medium">Directeur Général</p>
+                    <p className="text-base-content mb-1 font-medium">
+                      Directeur Général
+                    </p>
                     <span className="icon-[twemoji--flag-mali] size-8"></span>
                   </div>
 
-                  <p className="text-base-content/80">
-                    +223 76 59 80 59
-                  </p>
+                  <p className="text-base-content/80">+223 76 59 80 59</p>
                 </div>
                 <div className="card-actions h-5 gap-3">
                   <a href="#" className="text-accent">
@@ -139,7 +159,7 @@ const About = () => {
                 <div>
                   <div className="flex gap-3">
                     <p className="text-base-content mb-1 font-medium">
-                      Socio-anthropologue - Expert 
+                      Socio-anthropologue - Expert
                     </p>
                     <span className="icon-[twemoji--flag-niger] size-8"></span>
                   </div>
@@ -176,7 +196,7 @@ const About = () => {
                 </h3>
                 <div className="divider"></div>
                 <div>
-                <div className="flex gap-3">
+                  <div className="flex gap-3">
                     <p className="text-base-content mb-1 font-medium">
                       Sociologue - Expert
                     </p>
