@@ -56,24 +56,19 @@ const IndexPage = () => {
                   De manière spécifique
                 </span>
                 <h2 className="text-base-content text-2xl intersect:motion-preset-slide-left intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier font-semibold md:text-3xl lg:text-4xl">
-                  Historique et Objectif global
+                  Objectif global et spécifique
                 </h2>
-                <p className="text-base-content/80 text-xl intersect:motion-preset-slide-left intersect:motion-delay-[500ms] intersect:motion-ease-spring-bouncier">
-                  Depuis 2021, plusieurs experts originaires du Sahel
-                  collaborent de manière informelle dans le domaine de la
-                  prévention de la radicalisation, de l’extrémisme violent et du
-                  terrorisme, à travers des rencontres nationales et régionales.
-                  Ces échanges ont progressivement donné naissance à un pôle
-                  d’expertise et de compétences reconnu dans ce domaine. C’est
-                  afin de consolider ces acquis que le Cabinet OSARET a été créé
-                  par M. Fayké Papus SISSOKO, sociologue et expert en stratégie
-                  de prévention de la radicalisation et de l’extrémisme violent
-                  menant au terrorisme. Le cabinet est enregistré sous le numéro
-                  42509191889097D,RCCM :MA.BKO.2525.5824 en République du Mali.
-                  Créer des partenariats et mobiliser des ressources pour
-                  soutenir les États du Sahel dans la prévention et la lutte
-                  contre le terrorisme
+                <div className="card card-border border-success bg-success/20 rounded-none shadow-none intersect:motion-preset-slide-right intersect:motion-delay-[400ms] intersect:motion-ease-spring-bouncier">
+              <div className="card-body">
+                <h5 className="card-title text-xl flex gap-4">
+                  <span className="icon-[tabler--circle-check] size-6 rtl:rotate-180"></span>
+                  Creer
+                </h5>
+                <p className="mb-4">
+                 des partenariats et mobiliser des ressources pour soutenir les États du Sahel dans la prévention et la lutte contre le terrorisme
                 </p>
+              </div>
+            </div>
               </div>
             </div>
             <div>
