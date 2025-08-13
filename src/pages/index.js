@@ -151,7 +151,6 @@ const IndexPage = () => {
           <h2 className="text-base-content text-2xl font-bold md:text-3xl lg:text-4xl">
             Organigramme fonctionnel
           </h2>
-          <span className="from-primary/40 to-primary/5 absolute start-0 top-9 h-1 w-full rounded-full bg-gradient-to-r"></span>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 px-20 my-10">
           <ShapedCard
