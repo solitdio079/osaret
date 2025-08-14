@@ -365,7 +365,7 @@ const About = () => {
                     <p className="text-base-content mb-1 font-medium">
                       Expert Securitaire
                     </p>
-                    <span className="icon-[twemoji--flag-tchad] size-8"></span>
+                    <span className="icon-[twemoji--flag-chad] size-8"></span>
                   </div>
                   <p className="text-base-content/80"> +235 66 37 63 00</p>
                   <p className="text-base-content/80"> adamnetcho84@gmail.com</p>
