@@ -7,6 +7,8 @@ import team1 from "../images/team1.jpeg";
 import team2 from "../images/team2.jpeg";
 import team3 from "../images/team3.jpg";
 import team5 from "../images/team5.jpeg";
+import team6 from "../images/team6.jpeg";
+import team7 from "../images/team7.jpeg";
 import cravateImg from "../images/cravate2.jpeg";
 import Values from "./values";
 const About = () => {
@@ -38,9 +40,7 @@ const About = () => {
                       radicalisation et de l’extrémisme violent menant au
                       terrorisme. Le cabinet est enregistré sous le numéro
                       42509191889097D,RCCM :MA.BKO.2525.5824 en République du
-                      Mali. Créer des partenariats et mobiliser des ressources
-                      pour soutenir les États du Sahel dans la prévention et la
-                      lutte contre le terrorisme
+                      Mali.
                     </p>
                   </div>
                 </div>
@@ -304,6 +304,92 @@ const About = () => {
                 </div>
               </div>
             </div>
+
+            
+            <div className="card card-border hover:border-primary h-max shadow-none">
+              <figure className="bg-base-200 pt-6">
+                <img
+                  src={team6}
+                  alt="Jayden Lipshultz"
+                  className="h-60 w-auto"
+                />
+              </figure>
+              <div className="card-body gap-2">
+                <h3 className="text-base-content text-center text-md font-bold">
+                Loukoumanou Adam Nouhoun
+                </h3>
+                <div className="divider"></div>
+                <div>
+                  <div className="flex gap-2">
+                    <p className="text-base-content mb-1 font-medium">
+                      Expert Securitaire
+                    </p>
+                    <span className="icon-[twemoji--flag-benin] size-8"></span>
+                  </div>
+                  <p className="text-base-content/80"> +229 96 97 33 03</p>
+                  <p className="text-base-content/80"> loukmanadam@gmail.com</p>
+                </div>
+
+                <div className="card-actions h-5 gap-2">
+                  <a href="#" className="text-accent">
+                    <span className="icon-[tabler--brand-facebook] size-5.5"></span>
+                  </a>
+                  <a href="#" className="text-primary">
+                    <span className="icon-[tabler--brand-twitter] size-5.5"></span>
+                  </a>
+                  <a href="#" className="text-base-content">
+                    <span className="icon-[tabler--brand-github] size-5.5"></span>
+                  </a>
+                  <a href="#" className="text-pink-500">
+                    <span className="icon-[tabler--brand-instagram] size-5.5"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="card card-border hover:border-primary h-max shadow-none">
+              <figure className="bg-base-200 pt-6">
+                <img
+                  src={team7}
+                  alt="Jayden Lipshultz"
+                  className="h-60 w-auto"
+                />
+              </figure>
+              <div className="card-body gap-2">
+                <h3 className="text-base-content text-center text-lg font-medium">
+                Adam Netcho
+                </h3>
+                <div className="divider"></div>
+                <div>
+                  <div className="flex gap-2">
+                    <p className="text-base-content mb-1 font-medium">
+                      Expert Securitaire
+                    </p>
+                    <span className="icon-[twemoji--flag-tchad] size-8"></span>
+                  </div>
+                  <p className="text-base-content/80"> +235 66 37 63 00</p>
+                  <p className="text-base-content/80"> adamnetcho84@gmail.com</p>
+                </div>
+
+                <div className="card-actions h-5 gap-2">
+                  <a href="#" className="text-accent">
+                    <span className="icon-[tabler--brand-facebook] size-5.5"></span>
+                  </a>
+                  <a href="#" className="text-primary">
+                    <span className="icon-[tabler--brand-twitter] size-5.5"></span>
+                  </a>
+                  <a href="#" className="text-base-content">
+                    <span className="icon-[tabler--brand-github] size-5.5"></span>
+                  </a>
+                  <a href="#" className="text-pink-500">
+                    <span className="icon-[tabler--brand-instagram] size-5.5"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+
           </div>
         </div>
       </div>
