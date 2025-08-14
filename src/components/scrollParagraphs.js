@@ -1,9 +1,7 @@
 import * as React from "react"
 const infos = [
-    "La France reconnaît officiellement son rôle dans la répression violente des mouvements indépendantistes camerounais (1945–1971).",
-    "Redémarrage d’un réacteur à la centrale nucléaire de Gravelines après l’arrêt causé par une invasion de méduses.",
-    "Un dernier vendeur de journaux à la criée à Paris honoré par la Légion d’honneur.",
-    "Point sur la situation en France : l’alerte canicule est levée, mais les fortes températures persistent."
+   "JNIM : La stratégie actuelle du JNIM au Sahel repose sur une approche de guérilla combinant attaques asymétriques contre les forces étatiques et actions de propagande pour gagner le soutien des populations locales. Cabinet - Osaret",
+"JNIM : Le groupe exploite les conflits intercommunautaires et l'affaiblissement des États pour étendre son influence territoriale tout en maintenant des négociations opportunistes avec certains acteurs locaux. Cabinet - Osaret"
   ]
   
 const ScrollParagrapths = () => {
