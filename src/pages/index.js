@@ -144,7 +144,7 @@ const IndexPage = () => {
       </div>
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 mb-6 lg:px-8 motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md">
-        <div className="relative mx-auto mb-6 mt-12 w-fit">
+        <div className="relative mx-auto mb-6 w-fit">
           <h2 className="text-base-content text-2xl font-bold md:text-3xl lg:text-4xl">
             Nos Services
           </h2>
