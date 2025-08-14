@@ -61,25 +61,28 @@ const IndexPage = () => {
           <div className="grid gap-6 px-10 lg:grid-cols-2 motion-translate-y-in-100 motion-blur-in-md">
             <div className="">
               <div className="space-y-4 mb-6">
-                <span className="uppercase text-primary intersect:motion-preset-slide-left intersect:motion-delay-[100ms] intersect:motion-ease-spring-bouncier">
-                  De manière spécifique
-                </span>
+               
                 <h2 className="text-base-content text-2xl intersect:motion-preset-slide-left intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier font-semibold md:text-3xl lg:text-4xl">
                   Objectif spécifique
                 </h2>
 
-               
-                   
+                <div className="card card-border border-success bg-success/20 rounded-none shadow-none intersect:motion-preset-slide-right intersect:motion-delay-[400ms] intersect:motion-ease-spring-bouncier">
+                  <div className="card-body">
+                    <h5 className="card-title text-xl flex gap-4">
+                      <span className="icon-[tabler--circle-check] size-6 rtl:rotate-180"></span>
+                      Concevoir 
+                    </h5>
                     <p className="mb-4 lg:text-2xl">
-                     Concevoir des projets d’analyse, de recherche, d’études, de
-                      formation et d’assistance technique pour les pays du
+                      des projets d’analyse, de recherche, d’études,
+                      de formation et d’assistance technique pour les pays du
                       Sahel, des institutions, des agences et organisations
                       internationales, des ONG, des acteurs sociaux et
                       communautaires, afin de renforcer la compréhension et la
                       prévention de la radicalisation, de l’extrémisme violent
                       et du terrorisme au Sahel
                     </p>
-                 
+                  </div>
+                </div>
               </div>
             </div>
             <div>
