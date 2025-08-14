@@ -133,6 +133,7 @@ const About = () => {
                   </div>
 
                   <p className="text-base-content/80">+223 76 59 80 59</p>
+                  <p className="text-base-content/80">blancsissoko20@gmail.com</p>
                 </div>
                 <div className="card-actions h-5 gap-2">
                   <a href="#" className="text-accent">
@@ -163,11 +164,12 @@ const About = () => {
                 <div>
                   <div className="flex gap-2">
                     <p className="text-base-content mb-1 font-medium">
-                      Socio-anthropologue - Expert
+                      Anthropologue - Expert
                     </p>
                     <span className="icon-[twemoji--flag-niger] size-8"></span>
                   </div>
                   <p className="text-base-content/80">+227 89 65 60 71</p>
+                  <p className="text-base-content/80">moussa_sg@yahoo.fr</p>
                 </div>
                 <div className="card-actions h-5 gap-2">
                   <a href="#" className="text-accent">
@@ -207,6 +209,7 @@ const About = () => {
                     <span className="icon-[twemoji--flag-burkina-faso] size-8"></span>
                   </div>
                   <p className="text-base-content/80"> +226 76 14 32 42</p>
+                  <p className="text-base-content/80"> alimogho@gmail.com</p>
                 </div>
                 <div className="card-actions h-5 gap-2">
                   <a href="#" className="text-accent">
@@ -231,7 +234,7 @@ const About = () => {
               </figure>
               <div className="card-body gap-2">
                 <h3 className="text-base-content text-center text-lg font-medium">
-                  Colonel ( AR) TABATE Makliwe
+                  Colonel TABATE Makliwe
                 </h3>
                 <div className="divider"></div>
                 <div>
