@@ -67,24 +67,24 @@ const IndexPage = () => {
                 <h2 className="text-base-content text-2xl intersect:motion-preset-slide-left intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier font-semibold md:text-3xl lg:text-4xl">
                   Objectif spécifique
                 </h2>
-                <div className="card card-border border-success bg-success/20 rounded-none shadow-none intersect:motion-preset-slide-right intersect:motion-delay-[400ms] intersect:motion-ease-spring-bouncier">
-                  <div className="card-body">
-                    <h5 className="card-title text-xl flex gap-4">
-                      <span className="icon-[tabler--circle-check] size-6 rtl:rotate-180"></span>
-                      Creer
-                    </h5>
-                    <p className="mb-4">
-                      des partenariats et mobiliser des ressources pour soutenir
-                      les États du Sahel dans la prévention et la lutte contre
-                      le terrorisme
+
+               
+                   
+                    <p className="mb-4 lg:text-2xl">
+                     Concevoir des projets d’analyse, de recherche, d’études, de
+                      formation et d’assistance technique pour les pays du
+                      Sahel, des institutions, des agences et organisations
+                      internationales, des ONG, des acteurs sociaux et
+                      communautaires, afin de renforcer la compréhension et la
+                      prévention de la radicalisation, de l’extrémisme violent
+                      et du terrorisme au Sahel
                     </p>
-                  </div>
-                </div>
+                 
               </div>
             </div>
             <div>
               <img
-                className="mask mask-parallelogram intersect:motion-preset-slide-right intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier"
+                className="mask hidden lg:block mask-parallelogram intersect:motion-preset-slide-right intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier"
                 src={firstImg}
                 alt=""
               />
@@ -95,19 +95,16 @@ const IndexPage = () => {
               <div className="card-body">
                 <h5 className="card-title text-xl flex gap-4">
                   <span className="icon-[tabler--circle-check] size-6 rtl:rotate-180"></span>
-                  Concevoir
+                  Creer
                 </h5>
                 <p className="mb-4">
-                  des projets d’analyse, de recherche, d’études, de formation et
-                  d’assistance technique pour les pays du Sahel, des
-                  institutions, des agences et organisations internationales,
-                  des ONG, des acteurs sociaux et communautaires, afin de
-                  renforcer la compréhension et la prévention de la
-                  radicalisation, de l’extrémisme violent et du terrorisme au
-                  Sahel
+                  des partenariats et mobiliser des ressources pour soutenir les
+                  États du Sahel dans la prévention et la lutte contre le
+                  terrorisme
                 </p>
               </div>
             </div>
+
             <div className="card card-border border-info bg-info/20 rounded-none  shadow-none intersect:motion-preset-slide-right intersect:motion-delay-[600ms] intersect:motion-ease-spring-bouncier">
               <div className="card-body">
                 <h5 className="card-title text-xl flex gap-4">
