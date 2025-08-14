@@ -1,6 +1,7 @@
 import * as React from "react";
 import firstImg from "../images/vision.png";
 import secondImg from "../images/05.jpeg";
+import dgImg from "../images/dg.jpeg";
 import topImg from "../images/02.jpeg";
 import team1 from "../images/team1.jpeg";
 import team2 from "../images/team2.jpeg";
@@ -116,7 +117,7 @@ const About = () => {
             <div className="card card-border hover:border-primary h-max shadow-none">
               <figure className="bg-base-200 pt-6">
                 <img
-                  src={secondImg}
+                  src={dgImg}
                   alt="Fayké Papus SISSOKO"
                   className="h-60 w-auto"
                 />
