@@ -2,7 +2,7 @@ import * as React from "react";
 
 const ShapedCard = ({title, items,bgColor="bg-primary/90", borderColor="border-primary"}) => {
   return (
-    <div className={`w-full flex flex-col items-center shaped rounded-full min-w-60 p-5 pt-16 lg:p-20 intersect:motion-preset-slide-right intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier  border  shadow-sm ${bgColor} ${borderColor}`}>
+    <div className={`w-full flex flex-col items-center shaped rounded-full min-w-60 p-16 pt-16 lg:p-20 intersect:motion-preset-slide-right intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier  border  shadow-sm ${bgColor} ${borderColor}`}>
       <h5 className="mb-4 text-xl font-medium  text-red-500">
         {title}
       </h5>
