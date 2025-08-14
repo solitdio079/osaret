@@ -6,11 +6,12 @@ import team1 from "../images/team1.jpeg";
 import team2 from "../images/team2.jpeg";
 import team3 from "../images/team3.jpg";
 import team5 from "../images/team5.jpeg";
-import cravateImg from "../images/cravate.jpeg"
+import cravateImg from "../images/cravate.jpeg";
+import Values from "./values";
 const About = () => {
   return (
     <>
-      <div className="bg-base-200 py-8 sm:py-16 px-5 lg:py-24">
+      <div className="bg-base-200 px-5">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md">
           <div className="flex flex-col gap-12">
             <div className="space-y-4 text-center">
@@ -55,7 +56,7 @@ const About = () => {
             <div className="mt-3">
               <div
                 aria-labelledby="tabs-center-item-2"
-                className="grid md:grid-cols-2 gap-12 items-center justify-center mb-12"
+                className="grid md:grid-cols-2 gap-6 items-center justify-center "
               >
                 <div>
                   <img
@@ -75,7 +76,7 @@ const About = () => {
                   </p>
                 </div>
               </div>
-              <div className=" grid md:grid-cols-2 gap-12 items-center justify-center">
+              <div className="grid md:grid-cols-2 gap-6 items-center justify-center">
                 <div className="flex flex-col gap-6">
                   <h2 className="text-xl lg:text-2xl intersect:motion-preset-slide-left intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier">
                     Notre Vision
@@ -98,6 +99,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Values />
       <div className="bg-base-100 py-8 sm:py-16 lg:py-24 intersect:motion-preset-slide-left  intersect:motion-delay-[300ms]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8  motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md">
           <div className="mb-12 text-center sm:mb-16 lg:mb-24">
@@ -301,7 +303,6 @@ const About = () => {
                 </div>
               </div>
             </div>
-          
           </div>
         </div>
       </div>
