@@ -5,6 +5,8 @@ import topImg from "../images/02.jpeg";
 import team1 from "../images/team1.jpeg";
 import team2 from "../images/team2.jpeg";
 import team3 from "../images/team3.jpg";
+import team5 from "../images/team5.jpeg";
+import cravateImg from "../images/cravate.jpeg"
 const About = () => {
   return (
     <>
@@ -18,9 +20,9 @@ const About = () => {
               <div className="grid gap-6 px-10 lg:grid-cols-2 motion-translate-y-in-100 motion-blur-in-md">
                 <div className="">
                   <div className="space-y-4 mb-12">
-                  <h2 className="text-base-content text-2xl intersect:motion-preset-slide-left intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier font-semibold md:text-3xl lg:text-4xl">
-                  Historique
-                </h2>
+                    <h2 className="text-base-content text-2xl intersect:motion-preset-slide-left intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier font-semibold md:text-3xl lg:text-4xl">
+                      Historique
+                    </h2>
                     <p className="text-base-content/80 text-xl intersect:motion-preset-slide-left intersect:motion-delay-[500ms] intersect:motion-ease-spring-bouncier">
                       Depuis 2021, plusieurs experts originaires du Sahel
                       collaborent de manière informelle dans le domaine de la
@@ -34,8 +36,9 @@ const About = () => {
                       radicalisation et de l’extrémisme violent menant au
                       terrorisme. Le cabinet est enregistré sous le numéro
                       42509191889097D,RCCM :MA.BKO.2525.5824 en République du
-                      Mali.
-                      Créer des partenariats et mobiliser des ressources pour soutenir les États du Sahel dans la prévention et la lutte contre le terrorisme
+                      Mali. Créer des partenariats et mobiliser des ressources
+                      pour soutenir les États du Sahel dans la prévention et la
+                      lutte contre le terrorisme
                     </p>
                   </div>
                 </div>
@@ -87,7 +90,7 @@ const About = () => {
                 <div>
                   <img
                     className="mask mask-parallelogram intersect:motion-preset-slide-right intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier"
-                    src={firstImg}
+                    src={cravateImg}
                   />
                 </div>
               </div>
@@ -224,21 +227,17 @@ const About = () => {
 
             <div className="card card-border hover:border-primary h-max shadow-none">
               <figure className="bg-base-200 pt-6">
-                <img
-                  src={team3}
-                  alt="Alena Lubin"
-                  className="h-60 w-auto"
-                />
+                <img src={team3} alt="Alena Lubin" className="h-60 w-auto" />
               </figure>
               <div className="card-body gap-3">
                 <h3 className="text-base-content text-lg font-medium">
-                Colonel ( AR) TABATE Makliwe
+                  Colonel ( AR) TABATE Makliwe
                 </h3>
                 <div className="divider"></div>
                 <div>
-                <div className="flex gap-3">
+                  <div className="flex gap-3">
                     <p className="text-base-content mb-1 font-medium">
-                       Expert
+                      Expert Securitaire
                     </p>
                     <span className="icon-[twemoji--flag-togo] size-8"></span>
                   </div>
@@ -265,62 +264,27 @@ const About = () => {
             <div className="card card-border hover:border-primary h-max shadow-none">
               <figure className="bg-base-200 pt-6">
                 <img
-                  src="https://cdn.flyonui.com/fy-assets/blocks/marketing-ui/team/team-9.png"
+                  src={team5}
                   alt="Jayden Lipshultz"
                   className="h-60 w-auto"
                 />
               </figure>
               <div className="card-body gap-3">
                 <h3 className="text-base-content text-lg font-medium">
-                  Jayden Lipshultz
+                  Anschaire Aveved, PhD
                 </h3>
                 <div className="divider"></div>
                 <div>
-                  <p className="text-base-content mb-1 font-medium">
-                    Sales Lead
-                  </p>
-                  <p className="text-base-content/80">
-                    A visionary leader driving innovation and collaboration.
-                  </p>
+                  <div className="flex gap-3">
+                    <p className="text-base-content mb-1 font-medium">
+                      Expert Securitaire
+                    </p>
+                    <span className="icon-[twemoji--flag-cameroon] size-8"></span>
+                  </div>
+                  <p className="text-base-content/80"> +237 69 15 300 36</p>
+                  <p className="text-base-content/80"> aangolda5@gmail.com</p>
                 </div>
-                <div className="card-actions h-5 gap-3">
-                  <a href="#" className="text-accent">
-                    <span className="icon-[tabler--brand-facebook] size-5.5"></span>
-                  </a>
-                  <a href="#" className="text-primary">
-                    <span className="icon-[tabler--brand-twitter] size-5.5"></span>
-                  </a>
-                  <a href="#" className="text-base-content">
-                    <span className="icon-[tabler--brand-github] size-5.5"></span>
-                  </a>
-                  <a href="#" className="text-pink-500">
-                    <span className="icon-[tabler--brand-instagram] size-5.5"></span>
-                  </a>
-                </div>
-              </div>
-            </div>
 
-            <div className="card card-border hover:border-primary h-max shadow-none">
-              <figure className="bg-base-200 pt-6">
-                <img
-                  src="https://cdn.flyonui.com/fy-assets/blocks/marketing-ui/team/team-3.png"
-                  alt="Maria Donin"
-                  className="h-60 w-auto"
-                />
-              </figure>
-              <div className="card-body gap-3">
-                <h3 className="text-base-content text-lg font-medium">
-                  Maria Donin
-                </h3>
-                <div className="divider"></div>
-                <div>
-                  <p className="text-base-content mb-1 font-medium">
-                    Product Manager
-                  </p>
-                  <p className="text-base-content/80">
-                    A visionary leader driving innovation and collaboration.
-                  </p>
-                </div>
                 <div className="card-actions h-5 gap-3">
                   <a href="#" className="text-accent">
                     <span className="icon-[tabler--brand-facebook] size-5.5"></span>
@@ -337,82 +301,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-
-            <div className="card card-border hover:border-primary h-max shadow-none">
-              <figure className="bg-base-200 pt-6">
-                <img
-                  src="https://cdn.flyonui.com/fy-assets/blocks/marketing-ui/team/team-2.png"
-                  alt="Carter Saris"
-                  className="h-60 w-auto"
-                />
-              </figure>
-              <div className="card-body gap-3">
-                <h3 className="text-base-content text-lg font-medium">
-                  Carter Saris
-                </h3>
-                <div className="divider"></div>
-                <div>
-                  <p className="text-base-content mb-1 font-medium">
-                    UX Researcher
-                  </p>
-                  <p className="text-base-content/80">
-                    A visionary leader driving innovation and collaboration.
-                  </p>
-                </div>
-                <div className="card-actions h-5 gap-3">
-                  <a href="#" className="text-accent">
-                    <span className="icon-[tabler--brand-facebook] size-5.5"></span>
-                  </a>
-                  <a href="#" className="text-primary">
-                    <span className="icon-[tabler--brand-twitter] size-5.5"></span>
-                  </a>
-                  <a href="#" className="text-base-content">
-                    <span className="icon-[tabler--brand-github] size-5.5"></span>
-                  </a>
-                  <a href="#" className="text-pink-500">
-                    <span className="icon-[tabler--brand-instagram] size-5.5"></span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="card card-border hover:border-primary h-max shadow-none">
-              <figure className="bg-base-200 pt-6">
-                <img
-                  src="https://cdn.flyonui.com/fy-assets/blocks/marketing-ui/team/team-4.png"
-                  alt="Ahmad Donin"
-                  className="h-60 w-auto"
-                />
-              </figure>
-              <div className="card-body gap-3">
-                <h3 className="text-base-content text-lg font-medium">
-                  Ahmad Donin
-                </h3>
-                <div className="divider"></div>
-                <div>
-                  <p className="text-base-content mb-1 font-medium">
-                    Customer Success
-                  </p>
-                  <p className="text-base-content/80">
-                    A visionary leader driving innovation and collaboration.
-                  </p>
-                </div>
-                <div className="card-actions h-5 gap-3">
-                  <a href="#" className="text-accent">
-                    <span className="icon-[tabler--brand-facebook] size-5.5"></span>
-                  </a>
-                  <a href="#" className="text-primary">
-                    <span className="icon-[tabler--brand-twitter] size-5.5"></span>
-                  </a>
-                  <a href="#" className="text-base-content">
-                    <span className="icon-[tabler--brand-github] size-5.5"></span>
-                  </a>
-                  <a href="#" className="text-pink-500">
-                    <span className="icon-[tabler--brand-instagram] size-5.5"></span>
-                  </a>
-                </div>
-              </div>
-            </div>
+          
           </div>
         </div>
       </div>

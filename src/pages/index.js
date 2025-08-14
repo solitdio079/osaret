@@ -13,39 +13,47 @@ const IndexPage = () => {
   return (
     <Layout>
       <Hero />
-      <div className="grid md:grid-cols-3 mb-12 gap-6 my-5 p-5 rounded-none">
-        <ObjectifCard
-          text={
-            "Formations et assistance technique aux ONG, Etats et organisations internationales "
-          }
-          icon="icon-[tabler--books] size-10 rtl:rotate-180"
-        />
-        <ObjectifCard
-          text={"Études et recherches"}
-          icon="icon-[tabler--chart-dots] size-10 rtl:rotate-180"
-        />
-        <ObjectifCard
-          text={"Analyses et statistiques"}
-          icon="icon-[tabler--chart-histogram] size-10 rtl:rotate-180"
-        />
-        <ObjectifCard
-          text={
-            "Enquêtes communautaires sur la sécurité et le développement communautaire"
-          }
-          icon="icon-[tabler--clipboard-text] size-10 rtl:rotate-180"
-        />
-        <ObjectifCard
-          text={
-            "Conception, suivi et évaluation de projets, programmes, stratégies et plans d’action"
-          }
-          icon="icon-[tabler--file-chart] size-10 rtl:rotate-180"
-        />
-        <ObjectifCard
-          text={
-            " Organisation d’événements (ateliers, forums, séminaires, conférences, colloques)."
-          }
-          icon="icon-[tabler--timeline-event-text] size-10 rtl:rotate-180"
-        />
+      <div className="flex flex-col gap-6">
+        <div className="relative mx-auto mt-12 w-fit">
+          <h2 className="text-base-content text-2xl font-bold md:text-3xl lg:text-4xl">
+            Objectifs Global
+          </h2>
+          <span className="from-primary/40 to-primary/5 absolute start-0 top-9 h-1 w-full rounded-full bg-gradient-to-r"></span>
+        </div>
+        <div className="grid md:grid-cols-3 mb-12 gap-6 my-5 p-5 rounded-none">
+          <ObjectifCard
+            text={
+              "Formations et assistance technique aux ONG, Etats et organisations internationales "
+            }
+            icon="icon-[tabler--books] size-10 rtl:rotate-180"
+          />
+          <ObjectifCard
+            text={"Études et recherches"}
+            icon="icon-[tabler--chart-dots] size-10 rtl:rotate-180"
+          />
+          <ObjectifCard
+            text={"Analyses et statistiques"}
+            icon="icon-[tabler--chart-histogram] size-10 rtl:rotate-180"
+          />
+          <ObjectifCard
+            text={
+              "Enquêtes communautaires sur la sécurité et le développement communautaire"
+            }
+            icon="icon-[tabler--clipboard-text] size-10 rtl:rotate-180"
+          />
+          <ObjectifCard
+            text={
+              "Conception, suivi et évaluation de projets, programmes, stratégies et plans d’action"
+            }
+            icon="icon-[tabler--file-chart] size-10 rtl:rotate-180"
+          />
+          <ObjectifCard
+            text={
+              " Organisation d’événements (ateliers, forums, séminaires, conférences, colloques)."
+            }
+            icon="icon-[tabler--timeline-event-text] size-10 rtl:rotate-180"
+          />
+        </div>
       </div>
 
       <div className="my-5 p-5 rounded-none">
@@ -57,19 +65,21 @@ const IndexPage = () => {
                   De manière spécifique
                 </span>
                 <h2 className="text-base-content text-2xl intersect:motion-preset-slide-left intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier font-semibold md:text-3xl lg:text-4xl">
-                  Objectif global et spécifique
+                  Objectif spécifique
                 </h2>
                 <div className="card card-border border-success bg-success/20 rounded-none shadow-none intersect:motion-preset-slide-right intersect:motion-delay-[400ms] intersect:motion-ease-spring-bouncier">
-              <div className="card-body">
-                <h5 className="card-title text-xl flex gap-4">
-                  <span className="icon-[tabler--circle-check] size-6 rtl:rotate-180"></span>
-                  Creer
-                </h5>
-                <p className="mb-4">
-                 des partenariats et mobiliser des ressources pour soutenir les États du Sahel dans la prévention et la lutte contre le terrorisme
-                </p>
-              </div>
-            </div>
+                  <div className="card-body">
+                    <h5 className="card-title text-xl flex gap-4">
+                      <span className="icon-[tabler--circle-check] size-6 rtl:rotate-180"></span>
+                      Creer
+                    </h5>
+                    <p className="mb-4">
+                      des partenariats et mobiliser des ressources pour soutenir
+                      les États du Sahel dans la prévention et la lutte contre
+                      le terrorisme
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
             <div>
@@ -212,7 +222,7 @@ const IndexPage = () => {
         </div>
       </div>
 
-      <News/>
+      <News />
 
       <Organigrame />
 
