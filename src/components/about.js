@@ -13,7 +13,7 @@ const About = () => {
   return (
     <>
       <div className="bg-base-200 px-5">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md">
+        <div className="mx-auto max-w-7xl px-4 py-7 sm:px-6 lg:px-8 motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md">
           <div className="flex flex-col gap-6">
             <div className="space-y-4 text-center">
               <span className="badge badge-soft badge-primary rounded-xl">
@@ -120,7 +120,7 @@ const About = () => {
                 />
               </figure>
               <div className="card-body gap-3">
-                <h3 className="text-base-content text-lg font-medium">
+                <h3 className="text-base-content text-center text-lg font-medium">
                   Fayké Papus SISSOKO
                 </h3>
                 <div className="divider"></div>
@@ -156,7 +156,7 @@ const About = () => {
                 <img src={team1} alt="James Kenter" className="h-60 w-auto" />
               </figure>
               <div className="card-body gap-3">
-                <h3 className="text-base-content text-lg font-medium">
+                <h3 className="text-base-content text-center text-lg font-medium">
                   Moussa Mohamed
                 </h3>
                 <div className="divider"></div>
@@ -195,7 +195,7 @@ const About = () => {
                 />
               </figure>
               <div className="card-body gap-3">
-                <h3 className="text-base-content text-lg font-medium">
+                <h3 className="text-base-content text-center text-lg font-medium">
                   Tamboura Ali
                 </h3>
                 <div className="divider"></div>
@@ -230,7 +230,7 @@ const About = () => {
                 <img src={team3} alt="Alena Lubin" className="h-60 w-auto" />
               </figure>
               <div className="card-body gap-3">
-                <h3 className="text-base-content text-lg font-medium">
+                <h3 className="text-base-content text-center text-lg font-medium">
                   Colonel ( AR) TABATE Makliwe
                 </h3>
                 <div className="divider"></div>
@@ -270,7 +270,7 @@ const About = () => {
                 />
               </figure>
               <div className="card-body gap-3">
-                <h3 className="text-base-content text-lg font-medium">
+                <h3 className="text-base-content text-center text-lg font-medium">
                   Anschaire Aveved, PhD
                 </h3>
                 <div className="divider"></div>
