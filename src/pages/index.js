@@ -60,7 +60,7 @@ const IndexPage = () => {
         <div className="">
           <div className="grid gap-6 px-10 lg:grid-cols-2 motion-translate-y-in-100 motion-blur-in-md">
             <div className="">
-              <div className="space-y-4 mb-12">
+              <div className="space-y-4 mb-6">
                 <span className="uppercase text-primary intersect:motion-preset-slide-left intersect:motion-delay-[100ms] intersect:motion-ease-spring-bouncier">
                   De manière spécifique
                 </span>
@@ -140,8 +140,8 @@ const IndexPage = () => {
         </div>
       </div>
 
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 mb-12 lg:px-8 motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md">
-        <div className="relative mx-auto mb-12 w-fit sm:mb-16 lg:mb-24">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 mb-6 lg:px-8 motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md">
+        <div className="relative mx-auto mb-6 mt-12 w-fit">
           <h2 className="text-base-content text-2xl font-bold md:text-3xl lg:text-4xl">
             Nos Services
           </h2>
@@ -153,7 +153,7 @@ const IndexPage = () => {
       </div>
 
       <div>
-        <div className="relative mx-auto mb-12 w-fit sm:mb-16 lg:mb-24">
+        <div className="relative mx-auto w-fit mt-12 mb-6">
           <h2 className="text-base-content text-2xl font-bold md:text-3xl lg:text-4xl">
             Organigramme fonctionnel
           </h2>
