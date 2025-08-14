@@ -1,7 +1,7 @@
 import * as React from "react"
 const infos = [
-   "JNIM : La stratégie actuelle du JNIM au Sahel repose sur une approche de guérilla combinant attaques asymétriques contre les forces étatiques et actions de propagande pour gagner le soutien des populations locales. Cabinet - Osaret",
-"JNIM : Le groupe exploite les conflits intercommunautaires et l'affaiblissement des États pour étendre son influence territoriale tout en maintenant des négociations opportunistes avec certains acteurs locaux. Cabinet - Osaret"
+   <span><span className="text-red-500">JNIM : </span>La stratégie actuelle du JNIM au Sahel repose sur une approche de guérilla combinant attaques asymétriques contre les forces étatiques et actions de propagande pour gagner le soutien des populations locales.<span className="text-red-500"> Cabinet - Osaret</span></span>,
+   <span> <span className="text-red-500">JNIM : </span> Le groupe exploite les conflits intercommunautaires et l'affaiblissement des États pour étendre son influence territoriale tout en maintenant des négociations opportunistes avec certains acteurs locaux. <span className="text-red-500"> Cabinet - Osaret</span></span>
   ]
   
 const ScrollParagrapths = () => {
@@ -11,6 +11,17 @@ const ScrollParagrapths = () => {
         {infos.map(info => 
               <p className="text-white whitespace-nowrap"> {info} </p>
         )}
+       
+       
+
+     
+    </div>
+    <div className="hidden lg:flex flex-nowrap gap-6 animate-news mx-3">
+         
+        {infos.map(info => 
+              <p className="text-white whitespace-nowrap"> {info} </p>
+        )}
+       
        
 
      
