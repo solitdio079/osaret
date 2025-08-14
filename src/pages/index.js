@@ -58,7 +58,7 @@ const IndexPage = () => {
 
       <div className="my-5 p-5 rounded-none">
         <div className="">
-          <div className="grid gap-6 px-10 lg:grid-cols-2 motion-translate-y-in-100 motion-blur-in-md">
+          <div className="grid gap-6 px-5 lg:grid-cols-2 motion-translate-y-in-100 motion-blur-in-md">
             <div className="">
               <div className="space-y-4 mb-6">
                
