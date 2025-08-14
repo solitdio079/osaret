@@ -5,11 +5,13 @@ import partner1 from "../images/partner1.jpg";
 import partner2 from "../images/partner2.jpg";
 import partner3 from "../images/partner3.jpg";
 import ScrollLogos from "./scroolLogos";
+import ScrollParagrapths from "./scrollParagraphs";
 //import ScrollCards from "./scrollCards"
 const Hero = () => {
   return (
     <div className="bg-base-100">
       <main className={`h-screen bg-linear-to-r from-cyan-500 to-blue-500 `}>
+        <ScrollParagrapths/>
         <div className="flex h-full lg:flex-row flex-col justify-between gap-18 overflow-x-hidden pt-20 md:gap-24 md:pt-20 lg:gap-15 lg:pt-10">
           <img src={heroBg} className="m-5 hidden lg:flex w-1/8" alt="soldiers fighting" />
           <div className="flex flex-col gap-6">
