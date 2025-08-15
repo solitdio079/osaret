@@ -399,7 +399,7 @@ const About = () => {
               </figure>
               <div className="card-body gap-2">
                 <h3 className="text-base-content text-center text-lg font-medium">
-                Mustafa Bal
+                Moustapha Bal
                 </h3>
                 <div className="divider"></div>
                 <div>
