@@ -9,6 +9,7 @@ import team3 from "../images/team3.jpg";
 import team5 from "../images/team5.jpeg";
 import team6 from "../images/team6.jpeg";
 import team7 from "../images/team7.jpeg";
+import team8 from "../images/team8.jpeg";
 import cravateImg from "../images/cravate2.jpeg";
 import Values from "./values";
 const About = () => {
@@ -58,7 +59,7 @@ const About = () => {
               <div className="grid md:grid-cols-2 gap-6 items-center justify-center">
                 <div>
                   <img
-                    className="mask mask-hexagon intersect:motion-preset-slide-left intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier"
+                    className="mask mask-parallelogram intersect:motion-preset-slide-left intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier"
                     src={secondImg}
                   />
                 </div>
@@ -88,7 +89,7 @@ const About = () => {
                 </div>
                 <div>
                   <img
-                    className="mask mask-hexagon intersect:motion-preset-slide-right intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier"
+                    className="mask mask-parallelogram-3 mask-half-1 intersect:motion-preset-slide-right intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier"
                     src={cravateImg}
                   />
                 </div>
@@ -369,6 +370,47 @@ const About = () => {
                   </div>
                   <p className="text-base-content/80"> +235 66 37 63 00</p>
                   <p className="text-base-content/80"> adamnetcho84@gmail.com</p>
+                </div>
+
+                <div className="card-actions h-5 gap-2">
+                  <a href="#" className="text-accent">
+                    <span className="icon-[tabler--brand-facebook] size-5.5"></span>
+                  </a>
+                  <a href="#" className="text-primary">
+                    <span className="icon-[tabler--brand-twitter] size-5.5"></span>
+                  </a>
+                  <a href="#" className="text-base-content">
+                    <span className="icon-[tabler--brand-github] size-5.5"></span>
+                  </a>
+                  <a href="#" className="text-pink-500">
+                    <span className="icon-[tabler--brand-instagram] size-5.5"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="card card-border hover:border-primary h-max shadow-none">
+              <figure className="bg-base-200 pt-6">
+                <img
+                  src={team8}
+                  alt="Jayden Lipshultz"
+                  className="h-60 w-auto"
+                />
+              </figure>
+              <div className="card-body gap-2">
+                <h3 className="text-base-content text-center text-lg font-medium">
+                Mustafa Bal
+                </h3>
+                <div className="divider"></div>
+                <div>
+                  <div className="flex gap-2">
+                    <p className="text-base-content mb-1 font-medium">
+                      Expert Securitaire
+                    </p>
+                    <span className="icon-[twemoji--flag-mauritania] size-8"></span>
+                  </div>
+                  <p className="text-base-content/80"> +000 00 00 00 00</p>
+                  <p className="text-base-content/80"> balmohamed@yahoo.fr</p>
                 </div>
 
                 <div className="card-actions h-5 gap-2">
