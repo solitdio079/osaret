@@ -1,8 +1,11 @@
 import * as React from "react";
-import firstImg from "../images/02.jpeg";
-import secondImg from "../images/03.jpeg";
-import thirdImg from "../images/04.jpeg";
-import fourthImg from "../images/05.jpeg";
+import newsImg1 from "../images/news1.jpeg"
+import newsImg2 from "../images/news2.jpeg"
+import newsImg3 from "../images/news3.jpeg"
+import newsImg4 from "../images/news4.jpeg"
+import newsImg5 from "../images/news5.jpeg"
+import newsImg6 from "../images/news6.jpeg"
+
 const News = () => {
   return (
     <div>
@@ -14,73 +17,67 @@ const News = () => {
       <div className="grid md:grid-cols-3 gap-6 p-10">
         <div class="card image-full sm:max-w-sm intersect:motion-preset-slide-left intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier">
           <figure>
-            <img src="https://cdn.flyonui.com/fy-assets/components/card/image-5.png" alt="overlay image" />
+            <img src={newsImg1} alt="overlay image" />
           </figure>
           <div class="card-body">
-            <h2 class="card-title mb-2.5 text-white">Activity 1</h2>
+           
             <p class="text-white">
-              Boost your brand's visibility and engagement through targeted
-              marketing strategies.
+            Avec l'ambassadeur du Japon à Ougadougou, lors de l'atelier régional sur le terrorisme, le 06 novembre 2024.
             </p>
           </div>
         </div>
         <div class="card image-full sm:max-w-sm intersect:motion-preset-slide-left intersect:motion-delay-[500ms] intersect:motion-ease-spring-bouncier">
           <figure>
-            <img src="https://cdn.flyonui.com/fy-assets/components/card/image-5.png" alt="overlay image" />
+            <img src={newsImg2} alt="overlay image" />
           </figure>
           <div class="card-body">
-            <h2 class="card-title mb-2.5 text-white">Activity 2</h2>
+           
             <p class="text-white">
-              Boost your brand's visibility and engagement through targeted
-              marketing strategies.
+            Avec les officiers supérieurs de l'école de Maintien de la Paix, lors d'un atelier sur la lutte civilo-militaire dans la lutte contre le terrorisme.
             </p>
           </div>
         </div>
         <div class="card image-full sm:max-w-sm  intersect:motion-preset-slide-left intersect:motion-delay-[700ms] intersect:motion-ease-spring-bouncier">
           <figure>
-            <img src="https://cdn.flyonui.com/fy-assets/components/card/image-5.png" alt="overlay image" />
+            <img src={newsImg3} alt="overlay image" />
           </figure>
           <div class="card-body">
-            <h2 class="card-title mb-2.5 text-white">Activity 3</h2>
+            
             <p class="text-white">
-              Boost your brand's visibility and engagement through targeted
-              marketing strategies.
+            Avec l'ambassadeur de la Libye aux Émirats Arabes Unis, conférencier sur le Terrorisme en Asie, lors d'une rencontre internationale à Nouakchott-Mauritanie.
             </p>
           </div>
         </div>
         <div class="card image-full sm:max-w-sm  intersect:motion-preset-slide-left intersect:motion-delay-[900ms] intersect:motion-ease-spring-bouncier">
           <figure>
-            <img src="https://cdn.flyonui.com/fy-assets/components/card/image-5.png" alt="overlay image" />
+            <img src={newsImg4} alt="overlay image" />
           </figure>
           <div class="card-body">
-            <h2 class="card-title mb-2.5 text-white">Activity 4</h2>
+           
             <p class="text-white">
-              Boost your brand's visibility and engagement through targeted
-              marketing strategies.
+            Lors d'un exposé sur le lien entre les stupefiants et le terrorisme. au centre du Mali.
             </p>
           </div>
         </div>
         <div class="card image-full sm:max-w-sm  intersect:motion-preset-slide-left intersect:motion-delay-[900ms] intersect:motion-ease-spring-bouncier">
           <figure>
-            <img src="https://cdn.flyonui.com/fy-assets/components/card/image-5.png" alt="overlay image" />
+            <img src={newsImg5} alt="overlay image" />
           </figure>
           <div class="card-body">
-            <h2 class="card-title mb-2.5 text-white">Activity 5</h2>
+            
             <p class="text-white">
-              Boost your brand's visibility and engagement through targeted
-              marketing strategies.
+            Avec un islamologue Niger' Président du centre de dialogue interreligieux
             </p>
           </div>
         </div>
         <div class="card image-full sm:max-w-sm  intersect:motion-preset-slide-left intersect:motion-delay-[900ms] intersect:motion-ease-spring-bouncier">
           <figure>
-            <img src="https://cdn.flyonui.com/fy-assets/components/card/image-5.png" alt="overlay image" />
+            <img src={newsImg6} alt="overlay image" />
           </figure>
           <div class="card-body">
-            <h2 class="card-title mb-2.5 text-white">Activity 6</h2>
+            
             <p class="text-white">
-              Boost your brand's visibility and engagement through targeted
-              marketing strategies.
+            Avec le Représentant régional de l'ONUDC lors d'un atelier sur l'opérationnalisaion de la la SNPREV du Niger à Niamey.
             </p>
           </div>
         </div>
