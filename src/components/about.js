@@ -120,14 +120,14 @@ const About = () => {
                   className="h-60 w-auto"
                 />
               </figure>
-              <div className="card-body gap-0.5">
+              <div className="card-body gap-0.5 mx-auto text-center">
                 <h3 className="text-base-content text-center text-lg font-medium">
                   Fayké Papus SISSOKO
                 </h3>
                 <div className="divider"></div>
                 <div>
                   <div
-                    className="flex gap-0.5
+                    className="flex gap-0.5 mx-auto text-center
 "
                   >
                     <p className="text-base-content mb-1 font-medium">
@@ -141,7 +141,7 @@ const About = () => {
                     blancsissoko20@gmail.com
                   </p>
                 </div>
-                <div className="card-actions h-5 gap-0.5">
+                <div className="card-actions h-5 gap-0.5 mx-auto text-center">
                   <a href="#" className="text-accent">
                     <span className="icon-[tabler--brand-facebook] size-5.5"></span>
                   </a>
@@ -162,14 +162,14 @@ const About = () => {
               <figure className="bg-base-200 pt-2">
                 <img src={team1} alt="James Kenter" className="h-60 w-auto" />
               </figure>
-              <div className="card-body gap-0.5">
+              <div className="card-body gap-0.5 mx-auto text-center">
                 <h3 className="text-base-content text-center text-lg font-medium">
                   Moussa Mohamed
                 </h3>
                 <div className="divider"></div>
                 <div>
                   <div
-                    className="flex gap-0.5"
+                    className="flex gap-0.5 mx-auto text-center"
                   >
                     <p className="text-base-content mb-1 font-medium">
                       Anthropologue - Expert
@@ -179,7 +179,7 @@ const About = () => {
                   <p className="text-base-content/80">+227 89 65 60 71</p>
                   <p className="text-base-content/80">moussa_sg@yahoo.fr</p>
                 </div>
-                <div className="card-actions h-5 gap-0.5">
+                <div className="card-actions h-5 gap-0.5 mx-auto text-center">
                   <a href="#" className="text-accent">
                     <span className="icon-[tabler--brand-facebook] size-5.5"></span>
                   </a>
@@ -204,15 +204,14 @@ const About = () => {
                   className="h-60 w-auto"
                 />
               </figure>
-              <div className="card-body gap-0.5">
+              <div className="card-body gap-0.5 mx-auto text-center">
                 <h3 className="text-base-content text-center text-lg font-medium">
                   Tamboura Ali
                 </h3>
                 <div className="divider"></div>
                 <div>
                   <div
-                    className="flex gap-0.5
-"
+                    className="flex gap-0.5 mx-auto text-center text-center"
                   >
                     <p className="text-base-content mb-1 font-medium">
                       Sociologue - Expert
@@ -222,7 +221,7 @@ const About = () => {
                   <p className="text-base-content/80"> +226 76 14 32 42</p>
                   <p className="text-base-content/80"> alimogho@gmail.com</p>
                 </div>
-                <div className="card-actions h-5 gap-0.5">
+                <div className="card-actions h-5 gap-0.5 mx-auto text-center">
                   <a href="#" className="text-accent">
                     <span className="icon-[tabler--brand-facebook] size-5.5"></span>
                   </a>
@@ -243,14 +242,14 @@ const About = () => {
               <figure className="bg-base-200 pt-2">
                 <img src={team3} alt="Alena Lubin" className="h-60 w-auto" />
               </figure>
-              <div className="card-body gap-0.5">
+              <div className="card-body gap-0.5 mx-auto text-center">
                 <h3 className="text-base-content text-center text-lg font-medium">
                   Colonel TABATE Makliwe
                 </h3>
                 <div className="divider"></div>
                 <div>
                   <div
-                    className="flex gap-0.5
+                    className="flex gap-0.5 mx-auto text-center
 "
                   >
                     <p className="text-base-content mb-1 font-medium">
@@ -261,7 +260,7 @@ const About = () => {
                   <p className="text-base-content/80"> +228 90 04 45 80</p>
                   <p className="text-base-content/80"> madouele@gmail.com</p>
                 </div>
-                <div className="card-actions h-5 gap-0.5">
+                <div className="card-actions h-5 gap-0.5 mx-auto text-center">
                   <a href="#" className="text-accent">
                     <span className="icon-[tabler--brand-facebook] size-5.5"></span>
                   </a>
@@ -286,14 +285,14 @@ const About = () => {
                   className="h-60 w-auto"
                 />
               </figure>
-              <div className="card-body gap-0.5">
+              <div className="card-body gap-0.5 mx-auto text-center">
                 <h3 className="text-base-content text-center text-lg font-medium">
                   Anschaire Aveved, PhD
                 </h3>
                 <div className="divider"></div>
                 <div>
                   <div
-                    className="flex gap-0.5
+                    className="flex gap-0.5 mx-auto text-center
 "
                   >
                     <p className="text-base-content mb-1 font-medium">
@@ -305,7 +304,7 @@ const About = () => {
                   <p className="text-base-content/80"> aangolda5@gmail.com</p>
                 </div>
 
-                <div className="card-actions h-5 gap-0.5">
+                <div className="card-actions h-5 gap-0.5 mx-auto text-center">
                   <a href="#" className="text-accent">
                     <span className="icon-[tabler--brand-facebook] size-5.5"></span>
                   </a>
@@ -330,14 +329,14 @@ const About = () => {
                   className="h-60 w-auto"
                 />
               </figure>
-              <div className="card-body gap-0.5">
+              <div className="card-body gap-0.5 mx-auto text-center">
                 <h3 className="text-base-content text-center text-md font-bold">
                   Loukoumanou Adam Nouhoun
                 </h3>
                 <div className="divider"></div>
                 <div>
                   <div
-                    className="flex gap-0.5
+                    className="flex gap-0.5 mx-auto text-center
 "
                   >
                     <p className="text-base-content mb-1 font-medium">
@@ -349,7 +348,7 @@ const About = () => {
                   <p className="text-base-content/80"> loukmanadam@gmail.com</p>
                 </div>
 
-                <div className="card-actions h-5 gap-0.5">
+                <div className="card-actions h-5 gap-0.5 mx-auto text-center">
                   <a href="#" className="text-accent">
                     <span className="icon-[tabler--brand-facebook] size-5.5"></span>
                   </a>
@@ -374,14 +373,14 @@ const About = () => {
                   className="h-60 w-auto"
                 />
               </figure>
-              <div className="card-body gap-0.5">
+              <div className="card-body gap-0.5 mx-auto text-center">
                 <h3 className="text-base-content text-center text-lg font-medium">
                   Adam Netcho
                 </h3>
                 <div className="divider"></div>
                 <div>
                   <div
-                    className="flex gap-0.5
+                    className="flex gap-0.5 mx-auto text-center
 "
                   >
                     <p className="text-base-content mb-1 font-medium">
@@ -396,7 +395,7 @@ const About = () => {
                   </p>
                 </div>
 
-                <div className="card-actions h-5 gap-0.5">
+                <div className="card-actions h-5 gap-0.5 mx-auto text-center">
                   <a href="#" className="text-accent">
                     <span className="icon-[tabler--brand-facebook] size-5.5"></span>
                   </a>
@@ -421,14 +420,14 @@ const About = () => {
                   className="h-60 w-auto"
                 />
               </figure>
-              <div className="card-body gap-0.5">
+              <div className="card-body gap-0.5 mx-auto text-center">
                 <h3 className="text-base-content text-center text-lg font-medium">
                   Moustapha Bal
                 </h3>
                 <div className="divider"></div>
                 <div>
                   <div
-                    className="flex gap-0.5
+                    className="flex gap-0.5 mx-auto text-center
 "
                   >
                     <p className="text-base-content mb-1 font-medium">
@@ -440,7 +439,7 @@ const About = () => {
                   <p className="text-base-content/80"> balmohamed@yahoo.fr</p>
                 </div>
 
-                <div className="card-actions h-5 gap-0.5">
+                <div className="card-actions h-5 gap-0.5 mx-auto text-center">
                   <a href="#" className="text-accent">
                     <span className="icon-[tabler--brand-facebook] size-5.5"></span>
                   </a>
