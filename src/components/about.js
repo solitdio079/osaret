@@ -111,7 +111,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-6 lg:gap-y-10 xl:grid-cols-4">
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-6 lg:gap-y-6 xl:grid-cols-4">
             <div className="card card-border hover:border-primary h-max shadow-none">
               <figure className="bg-base-200 pt-2">
                 <img
