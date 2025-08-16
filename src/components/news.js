@@ -71,9 +71,9 @@ const News = () => {
             </p>
           </div>
         </div>
-        <div class="card image-full sm:max-w-sm  intersect:motion-preset-slide-left intersect:motion-delay-[900ms] intersect:motion-ease-spring-bouncier">
-          <figure>
-            <img src={newsImg6} alt="overlay image" />
+        <div class="card image-full  intersect:motion-preset-slide-left intersect:motion-delay-[900ms] intersect:motion-ease-spring-bouncier">
+          <figure className="w-fit">
+            <img src={newsImg6} className="w-full" alt="overlay image" />
           </figure>
           <div class="card-body">
             
