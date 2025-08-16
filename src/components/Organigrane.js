@@ -41,7 +41,7 @@ const people = [
 
 export default function Organigrame() {
   return (
-    <div className="py-24 sm:py-32">
+    <div className="py-6 sm:py-12">
       <div className="mx-auto flex flex-col max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3">
         <div className=" mx-auto">
         <div className="relative mx-auto mb-6 w-fit">
