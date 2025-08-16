@@ -2,7 +2,7 @@ import * as React from "react";
 import Layout from "../components/Layout";
 
 import Seo from "../components/Seo";
-import firstImg from "../images/05.jpeg"
+import firstImg from "../images/contact.png"
 
 const Contact = () => {
   return (
