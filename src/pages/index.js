@@ -14,11 +14,11 @@ const IndexPage = () => {
     <Layout>
       <Hero />
       <div className="flex flex-col gap-6">
-        <div className="relative mx-auto mt-12 w-fit">
+        <div className="bg-primary mt-6 relative mx-auto text-center p-1">
           <h2 className="text-base-content text-2xl font-bold md:text-3xl lg:text-4xl">
             Objectifs Global
           </h2>
-          <span className="from-primary/90 to-primary/50 absolute start-0 top-9 h-1 w-full rounded-full bg-gradient-to-r"></span>
+         
         </div>
         <div className="grid md:grid-cols-3 mb-12 gap-6 my-5 p-5 rounded-none">
           <ObjectifCard
@@ -61,11 +61,11 @@ const IndexPage = () => {
           <div className="grid gap-6 px-5 lg:grid-cols-2 motion-translate-y-in-100 motion-blur-in-md">
             <div className="">
               <div className="space-y-4 mb-6">
-              <div className="relative mx-auto w-fit">
+              <div className="bg-primary relative mx-auto mb-6 w-fit text-center p-1">
                 <h2 className="text-base-content text-2xl intersect:motion-preset-slide-left intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier font-semibold md:text-3xl lg:text-4xl">
                   Objectif spécifique
                 </h2>
-                <span className="from-primary/90 to-primary/50 absolute start-0 top-9 h-1 w-full rounded-full bg-gradient-to-r"></span>
+               
                </div>
                 <div className="card card-border border-success bg-success/20 rounded-none shadow-none intersect:motion-preset-slide-right intersect:motion-delay-[400ms] intersect:motion-ease-spring-bouncier">
                   <div className="card-body">
@@ -145,7 +145,7 @@ const IndexPage = () => {
       </div>
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 mb-6 lg:px-8 motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md">
-        <div className="relative mx-auto mb-6 w-fit">
+        <div className="bg-primary relative mx-auto mb-6 text-center p-1 w-fit">
           <h2 className="text-base-content text-2xl font-bold md:text-3xl lg:text-4xl">
             Nos Services
           </h2>
@@ -157,11 +157,11 @@ const IndexPage = () => {
       </div>
 
       <div>
-        <div className="relative mx-auto w-fit mt-12 mb-6">
+        <div className="bg-primary relative mx-auto text-center p-1 w-fit mb-6">
           <h2 className="text-base-content text-2xl font-bold md:text-3xl lg:text-4xl">
             Organigramme fonctionnel
           </h2>
-          <span className="from-primary/90 to-primary/50 absolute start-0 top-9 h-1 w-full rounded-full bg-gradient-to-r"></span>
+         
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 px-20 my-10">
           <ShapedCard

@@ -59,14 +59,14 @@ const people = [
 
 export default function Organigrame() {
   return (
-    <div className="py-6 mb-12 sm:py-12">
+    <div className="py-6 mb-12 sm:py-6">
       <div className="mx-auto flex flex-col max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3">
         <div className=" mx-auto">
-        <div className="relative mx-auto mb-6 w-fit">
+        <div className="bg-primary relative mx-auto mb-6 text-center p-1 w-fit">
           <h2 className="text-base-content text-2xl font-bold md:text-3xl lg:text-4xl">
             Ressources humaines
           </h2>
-          <span className="from-primary/90 to-primary/50 absolute start-0 top-9 h-1 w-full rounded-full bg-gradient-to-r"></span>
+         
         </div>
           <p className="mt-6 text-lg/8  intersect:motion-preset-slide-right intersect:motion-delay-[400ms]">
             Le Cabinet OSARET réunit en son sein des experts originaires des
@@ -75,7 +75,7 @@ export default function Organigrame() {
         </div>
         <ul
           role="list"
-          className="grid mx-auto gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2"
+          className="grid mx-auto gap-x-6 gap-y-6 sm:grid-cols-2 sm:gap-y-6 xl:col-span-2"
         >
           {people.map((person) => (
             <li

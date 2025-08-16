@@ -9,7 +9,7 @@ import newsImg6 from "../images/news6.jpeg"
 const News = () => {
   return (
     <div>
-      <div className="relative mx-auto mb-3 w-fit sm:mb-6 lg:mb-6">
+      <div className="bg-primary relative mx-auto mb-6 text-center p-1 mb-3 w-fit sm:mb-6 lg:mb-6">
         <h2 className="text-base-content text-2xl font-bold md:text-3xl lg:text-4xl">
           Nos nouvelles
         </h2>
