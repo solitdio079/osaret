@@ -18,7 +18,7 @@ const IndexPage = () => {
           <h2 className="text-base-content text-2xl font-bold md:text-3xl lg:text-4xl">
             Objectifs Global
           </h2>
-          <span className="from-primary/40 to-primary/5 absolute start-0 top-9 h-1 w-full rounded-full bg-gradient-to-r"></span>
+          <span className="from-primary/90 to-primary/50 absolute start-0 top-9 h-1 w-full rounded-full bg-gradient-to-r"></span>
         </div>
         <div className="grid md:grid-cols-3 mb-12 gap-6 my-5 p-5 rounded-none">
           <ObjectifCard
@@ -61,11 +61,12 @@ const IndexPage = () => {
           <div className="grid gap-6 px-5 lg:grid-cols-2 motion-translate-y-in-100 motion-blur-in-md">
             <div className="">
               <div className="space-y-4 mb-6">
-               
+              <div className="relative mx-auto w-fit">
                 <h2 className="text-base-content text-2xl intersect:motion-preset-slide-left intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier font-semibold md:text-3xl lg:text-4xl">
                   Objectif spécifique
                 </h2>
-
+                <span className="from-primary/90 to-primary/50 absolute start-0 top-9 h-1 w-full rounded-full bg-gradient-to-r"></span>
+               </div>
                 <div className="card card-border border-success bg-success/20 rounded-none shadow-none intersect:motion-preset-slide-right intersect:motion-delay-[400ms] intersect:motion-ease-spring-bouncier">
                   <div className="card-body">
                     <h5 className="card-title text-xl flex gap-4">
@@ -148,7 +149,7 @@ const IndexPage = () => {
           <h2 className="text-base-content text-2xl font-bold md:text-3xl lg:text-4xl">
             Nos Services
           </h2>
-          <span className="from-primary/40 to-primary/5 absolute start-0 top-9 h-1 w-full rounded-full bg-gradient-to-r"></span>
+          <span className="from-primary/90 to-primary/50 absolute start-0 top-9 h-1 w-full rounded-full bg-gradient-to-r"></span>
         </div>
         <div className="grid items-center gap-12 md:grid-cols-1">
           <ScrollCards />
@@ -160,6 +161,7 @@ const IndexPage = () => {
           <h2 className="text-base-content text-2xl font-bold md:text-3xl lg:text-4xl">
             Organigramme fonctionnel
           </h2>
+          <span className="from-primary/90 to-primary/50 absolute start-0 top-9 h-1 w-full rounded-full bg-gradient-to-r"></span>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 px-20 my-10">
           <ShapedCard

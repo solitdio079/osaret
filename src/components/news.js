@@ -13,6 +13,7 @@ const News = () => {
         <h2 className="text-base-content text-2xl font-bold md:text-3xl lg:text-4xl">
           Nos nouvelles
         </h2>
+        <span className="from-primary/90 to-primary/50 absolute start-0 top-9 h-1 w-full rounded-full bg-gradient-to-r"></span>
       </div>
       <div className="grid md:grid-cols-3 gap-6 p-10">
         <div class="card image-full sm:max-w-sm intersect:motion-preset-slide-left intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier">
