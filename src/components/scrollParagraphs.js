@@ -13,7 +13,7 @@ const infos = [
     {" "}
     <span className="text-red-500"> L’Extrémisme violent : </span> L’extrémisme
     violent désigne l’attitude d’un individu ou d’un groupe d’individus
-    cherchant à imposer ses croyances radicales à la communauté dont il est
+    cherchant à imposer ses nouvelles croyances radicales à la communauté dont il est
     issu, en recourant à la violence verbale et/ou physique.{" "}
     <span className="text-red-500"> Cabinet - Osaret</span>
   </span>,
