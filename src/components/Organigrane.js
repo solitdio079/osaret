@@ -32,6 +32,24 @@ const people = [
       "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
   },
   {
+    name: "Courtney Henry",
+    role: "Criminologue",
+    imageUrl:
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+  },
+  {
+    name: "Courtney Henry",
+    role: "Analyste sécuritaire, réseaux sociaux et radicalisation en ligne.",
+    imageUrl:
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+  },
+  {
+    name: "Courtney Henry",
+    role: "Magistrat ( justuce & Droit de l'homme)",
+    imageUrl:
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+  },
+  {
     name: "Tom Cook",
     role: "Spécialistes du financement du terrorisme, de la criminalité transfrontalière et de l’économie criminelle (trafic d’armes, de drogues et contrebande)",
     imageUrl:
@@ -41,7 +59,7 @@ const people = [
 
 export default function Organigrame() {
   return (
-    <div className="py-6 sm:py-12">
+    <div className="py-6 mb-12 sm:py-12">
       <div className="mx-auto flex flex-col max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3">
         <div className=" mx-auto">
         <div className="relative mx-auto mb-6 w-fit">
