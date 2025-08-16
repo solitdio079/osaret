@@ -21,7 +21,7 @@ const Contact = () => {
             <img
               src={firstImg}
               alt="Contact illustration"
-              className="size-full rounded-none intersect:motion-preset-slide-left intersect:motion-delay-[100ms] intersect:motion-ease-spring-bouncier"
+              className="min-w-60 lg:w-md rounded-none intersect:motion-preset-slide-left intersect:motion-delay-[100ms] intersect:motion-ease-spring-bouncier"
             />
 
             <div>
