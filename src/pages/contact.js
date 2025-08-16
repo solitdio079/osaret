@@ -8,16 +8,16 @@ const Contact = () => {
   return (
     <>
     <Layout>
-      <div className="bg-base-200 py-8 sm:py-16 lg:py-24">
+      <div className="bg-base-200 py-8">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md">
-          <div className="relative mx-auto mb-12 w-fit sm:mb-16 lg:mb-24">
+          <div className="relative mx-auto mb-12 w-fit">
             <h2 className="text-base-content text-2xl font-bold md:text-3xl lg:text-4xl">
               Contactez-nous
             </h2>
             <span className="from-primary/40 to-primary/5 absolute start-0 top-9 h-1 w-full rounded-full bg-gradient-to-r"></span>
           </div>
 
-          <div className="grid items-center gap-12 lg:grid-cols-2">
+          <div className="grid items-start gap-12 lg:grid-cols-2">
             <img
               src={firstImg}
               alt="Contact illustration"
@@ -25,9 +25,7 @@ const Contact = () => {
             />
 
             <div>
-              <h3 className="text-base-content mb-6 text-2xl font-semibold intersect:motion-preset-slide-right intersect:motion-delay-[200ms] intersect:motion-ease-spring-bouncier">
-              Ravi de vous aider !
-              </h3>
+            
               <p className="text-base-content/80 mb-10 text-lg font-medium intersect:motion-preset-slide-right intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier">
                 Le Cabinet OSARET a son siège à Bamako, près du rond-point
                 Général Soumaré, à Sotuba. Il dispose également de
