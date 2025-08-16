@@ -21,7 +21,7 @@
         "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --animate-scroll: infinite-scroll 120s linear infinite;
     --animate-logo: infinite-scroll 5s linear infinite;
-    --animate-news: infinite-scroll 25s linear infinite;
+    --animate-news: infinite-scroll 60s linear infinite;
     --animate-reverse: infinite-reverse 60s linear infinite;
     --animate-wiggle: wiggle 1s ease-in-out infinite;
 
