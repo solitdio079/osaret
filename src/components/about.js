@@ -435,7 +435,7 @@ const About = () => {
                     </p>
                     <span className="icon-[twemoji--flag-mauritania] size-8"></span>
                   </div>
-                  <p className="text-base-content/80"> +000 00 00 00 00</p>
+                  <p className="text-base-content/80"> +222 41 09 09 87</p>
                   <p className="text-base-content/80"> balmohamed@yahoo.fr</p>
                 </div>
 
