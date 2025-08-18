@@ -4,6 +4,7 @@ import partner2 from "../images/unicri.jpg"
 import partner3 from "../images/onudc.jpg"
 import partner4 from "../images/oua.png"
 import partner5 from "../images/05.jpeg"
+
 const services = [
   partner1,partner2, partner3, partner4,partner5
 ]
