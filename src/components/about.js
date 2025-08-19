@@ -380,8 +380,7 @@ const About = () => {
                 <div className="divider"></div>
                 <div>
                   <div
-                    className="flex gap-0.5 mx-auto text-center
-"
+                    className="flex gap-0.5 mx-auto text-center"
                   >
                     <p className="text-base-content mb-1 font-medium">
                       Expert Securitaire

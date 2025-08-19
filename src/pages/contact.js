@@ -2,7 +2,7 @@ import * as React from "react";
 import Layout from "../components/Layout";
 
 import Seo from "../components/Seo";
-import firstImg from "../images/contact00.png"
+import firstImg from "../images/contact01.png"
 
 const Contact = () => {
   return (
@@ -98,7 +98,7 @@ const Contact = () => {
                     </h4>
                     <div className="text-center">
                       <p className="text-base-content/80">+223 76 90 81 81 </p>
-                      <p className="text-base-content/80"> +223 66 66 45 45 </p>
+                      <p className="text-base-content/80"> +223 65 27 9797 </p>
                     </div>
                   </div>
                 </div>
