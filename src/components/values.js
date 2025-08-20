@@ -4,7 +4,7 @@ const Values = () => {
   return (
     <>
       <div className="relative mx-auto  w-fit mb-6 mt-12">
-        <h2 className="text-base-content text-2xl font-bold md:text-3xl lg:text-4xl">
+        <h2 className="text-base-content  bg-primary p-2 text-2xl font-bold md:text-3xl lg:text-4xl">
           Valeurs
         </h2>
         <span className="from-primary/40 to-primary/5 absolute start-0 top-9 h-1 w-full rounded-full bg-gradient-to-r"></span>

@@ -25,10 +25,10 @@ const About = () => {
               <div className="grid  px-10 lg:grid-cols-2 motion-translate-y-in-100 motion-blur-in-md">
                 <div className="">
                   <div className="space-y-4 mb-12">
-                    <h2 className="text-base-content text-2xl intersect:motion-preset-slide-left intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier font-semibold md:text-3xl lg:text-4xl">
+                    <h2 className="text-base-content bg-primary p-2 text-2xl intersect:motion-preset-slide-left intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier font-semibold md:text-3xl lg:text-4xl">
                       Historique
                     </h2>
-                    <p className="text-base-content/80 text-xl intersect:motion-preset-slide-left intersect:motion-delay-[500ms] intersect:motion-ease-spring-bouncier">
+                    <p className="text-base-content/80 text-left text-xl intersect:motion-preset-slide-left intersect:motion-delay-[500ms] intersect:motion-ease-spring-bouncier">
                       Depuis 2021, plusieurs experts originaires du Sahel
                       collaborent de manière informelle dans le domaine de la
                       prévention de la radicalisation, de l’extrémisme violent
@@ -64,27 +64,23 @@ const About = () => {
                   />
                 </div>
                 <div className="flex flex-col gap-6">
-                  <h2 className="text-xl lg:text-2xl intersect:motion-preset-slide-right intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier">
-                    Notre Mission
+                  <h2 className="text-xl bg-primary p-2 text-center  lg:text-2xl intersect:motion-preset-slide-right intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier">
+                     Mission
                   </h2>
                   <p className="text-base-content/80 intersect:motion-preset-slide-right intersect:motion-delay-[400ms] intersect:motion-ease-spring-bouncier">
-                    Fournir une expertise indépendante, rigoureuse et
-                    contextualisée pour renforcer les capacités des acteurs dans
-                    la prévention du terrorisme, la consolidation de la paix et
-                    la cohésion sociale.
+                  Fournir une expertise indépendante, rigoureuse et contextualisée afin de renforcer les capacités des acteurs en matière de maîtrise du terrain, de compréhension des enjeux, de développement de stratégies de prévention de la radicalisation, de l’extrémisme violent et du terrorisme, ainsi que de consolidation de la paix et de la cohésion sociale.
+
                   </p>
                 </div>
               </div>
               <div className="grid md:grid-cols-2 gap-6 items-center justify-center">
                 <div className="flex flex-col gap-6">
-                  <h2 className="text-xl lg:text-2xl intersect:motion-preset-slide-left intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier">
-                    Notre Vision
+                  <h2 className="text-xl bg-primary p-2 text-center  lg:text-2xl intersect:motion-preset-slide-left intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier">
+                    Vision
                   </h2>
                   <p className="text-base-content/80 intersect:motion-preset-slide-left intersect:motion-delay-[400ms] intersect:motion-ease-spring-bouncier">
-                    Un Sahel résilient, pacifique et sécurisé, où les
-                    communautés sont immunisées contre les facteurs de
-                    radicalisation grâce à la recherche, à la prévention et à la
-                    coopération.
+                  Un Sahel résilient, pacifique et sécurisé, où les communautés sont immunisées contre les facteurs de radicalisation, d’extrémisme violent et de terrorisme, grâce à l’analyse, à la recherche, à l’étude, à la prévention, ainsi qu’à la coopération nationale, interrégionale, interétatique et interagences.
+
                   </p>
                 </div>
                 <div>
@@ -102,7 +98,7 @@ const About = () => {
       <div className="bg-base-100 py-8 sm:py-16 lg:py-12 intersect:motion-preset-slide-left  intersect:motion-delay-[300ms]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8  motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md">
           <div className=" text-center mb-6">
-            <h2 className="text-base-content mb-4 text-2xl font-semibold md:text-3xl lg:text-4xl">
+            <h2 className="text-base-content mb-4  bg-primary p-2 text-2xl font-semibold md:text-3xl lg:text-4xl">
               Notre équipe
             </h2>
             <p className="text-base-content/80 text-xl">
