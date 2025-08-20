@@ -11,7 +11,7 @@ const Contact = () => {
       <div className="bg-base-200 py-8">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md">
           <div className="relative mx-auto mb-12 w-fit">
-            <h2 className="text-base-content text-2xl font-bold md:text-3xl lg:text-4xl">
+            <h2 className="text-base-content bg-primary text-2xl font-bold md:text-3xl lg:text-4xl">
               Contactez-nous
             </h2>
             <span className="from-primary/40 to-primary/5 absolute start-0 top-9 h-1 w-full rounded-full bg-gradient-to-r"></span>
