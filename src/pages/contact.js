@@ -30,7 +30,7 @@ const Contact = () => {
                 Le Cabinet OSARET a son siège à Bamako, près du rond-point
                 Général Soumaré, à Sotuba. Il dispose également de
                 représentations au Burkina Faso, au Niger, au Bénin, au Togo, au
-                Tchad, au Cameroun et au Soudan, assurées par des experts
+                Tchad, au Cameroun et au Soudan, et en Mauritanie assurées par des experts
                 nationaux qualifiés.
               </p>
 
