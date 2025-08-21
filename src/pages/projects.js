@@ -6,11 +6,11 @@ import Seo from "../components/Seo";
 const Projects = () => {
    return (
     <Layout>
-         <div className="relative mx-auto mb-12 w-fit sm:mb-16 lg:mb-24">
-          <h2 className="text-base-content bg-primary text-2xl font-bold md:text-3xl lg:text-4xl">
+         <div className="relative mx-auto mb-12 px-8 sm:mb-16 lg:mb-12">
+          <h2 className="text-base-content bg-primary text-center text-2xl font-bold md:text-3xl lg:text-4xl">
             Nos Projets
           </h2>
-          <span className="from-primary/40 to-primary/5 absolute start-0 top-9 h-1 w-full rounded-full bg-gradient-to-r"></span>
+        
         </div>
        <div className="grid gap-6 md:grid-cols-3  p-5">
             <div className="card card-border border-success bg-success/20 rounded-none shadow-none intersect:motion-preset-slide-right intersect:motion-delay-[400ms] intersect:motion-ease-spring-bouncier">

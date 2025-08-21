@@ -13,8 +13,8 @@ const IndexPage = () => {
   return (
     <Layout>
       <Hero />
-      <div className="flex flex-col gap-6">
-        <div className="bg-primary mt-6 relative mx-auto text-center p-1">
+      <div className="flex flex-col gap-6 px-10">
+        <div className="bg-primary mt-6 relative mx-auto w-full px-8 text-center p-1">
           <h2 className="text-base-content text-2xl font-bold md:text-3xl lg:text-4xl">
             Objectifs Global
           </h2>
@@ -61,7 +61,7 @@ const IndexPage = () => {
           <div className="grid gap-6 px-5 lg:grid-cols-2 motion-translate-y-in-100 motion-blur-in-md">
             <div className="">
               <div className="space-y-4 mb-6">
-              <div className="bg-primary relative mx-auto mb-6 w-fit text-center p-1">
+              <div className="bg-primary relative mx-auto mb-6 text-center p-1">
                 <h2 className="text-base-content text-2xl intersect:motion-preset-slide-left intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier font-semibold md:text-3xl lg:text-4xl">
                   Objectif spécifique
                 </h2>
@@ -145,7 +145,7 @@ const IndexPage = () => {
       </div>
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 mb-6 lg:px-8 motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md">
-        <div className="bg-primary relative mx-auto mb-6 text-center p-1 w-fit">
+        <div className="bg-primary relative mx-auto mb-6 text-center p-1 ">
           <h2 className="text-base-content text-2xl font-bold md:text-3xl lg:text-4xl">
             Nos Services
           </h2>
@@ -156,9 +156,9 @@ const IndexPage = () => {
         </div>
       </div>
 
-      <div>
-        <div className="bg-primary relative mx-auto text-center p-1 w-fit mb-6">
-          <h2 className="text-base-content text-2xl font-bold md:text-3xl lg:text-4xl">
+      <div className="px-8">
+        <div className="bg-primary relative mx-auto text-center p-1  mb-6">
+          <h2 className="text-base-content text-2xl font-bold md:text-3xl  lg:text-4xl">
             Organigramme fonctionnel
           </h2>
          

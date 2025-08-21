@@ -67,9 +67,9 @@ export default function Organigrame() {
   return (
     <div className="py-6 mb-12 sm:py-6">
       <div className="mx-auto flex flex-col max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3">
-        <div className=" mx-auto">
-        <div className="bg-primary relative mx-auto mb-6 text-center p-1 w-fit">
-          <h2 className="text-base-content text-2xl font-bold md:text-3xl lg:text-4xl">
+        <div className=" mx-auto ">
+        <div className="bg-primary relative mx-auto mb-6 text-center p-1">
+          <h2 className="text-base-content text-center text-2xl font-bold md:text-3xl lg:text-4xl">
             Ressources humaines
           </h2>
          

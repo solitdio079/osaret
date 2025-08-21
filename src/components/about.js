@@ -35,13 +35,16 @@ const About = () => {
                       et du terrorisme, à travers des rencontres nationales et
                       régionales. Ces échanges ont progressivement donné
                       naissance à un pôle d’expertise et de compétences reconnu
-                      dans ce domaine. C’est afin de consolider ces acquis que
-                      le Cabinet OSARET a été créé par M. Fayké Papus SISSOKO,
-                      sociologue et expert en en stratégie de prévention de la
-                      radicalisation et de l’extrémisme violent menant au
-                      terrorisme. Le cabinet est enregistré sous le numéro
-                      42509191889097D,RCCM :MA.BKO.2525.5824 en République du
-                      Mali.
+                      dans ce domaine.
+                    </p>
+                    <p className="text-base-content/80 text-left text-xl intersect:motion-preset-slide-left intersect:motion-delay-[500ms] intersect:motion-ease-spring-bouncier">
+                      C’est afin de consolider ces acquis que le Cabinet OSARET
+                      a été créé par M. Fayké Papus SISSOKO, sociologue et
+                      expert en stratégie de prévention de la radicalisation et
+                      de l’extrémisme violent menant au terrorisme. Le cabinet
+                      est enregistré sous le numéro 42509191889097D, RCCM :
+                      MA.BKO.2525.5824 en République du Mali, avec une
+                      compétence étendue à l’ensemble de la région sahélienne.
                     </p>
                   </div>
                 </div>
@@ -65,11 +68,16 @@ const About = () => {
                 </div>
                 <div className="flex flex-col gap-6">
                   <h2 className="text-xl bg-primary p-2 text-center  lg:text-2xl intersect:motion-preset-slide-right intersect:motion-delay-[300ms] intersect:motion-ease-spring-bouncier">
-                     Mission
+                    Mission
                   </h2>
                   <p className="text-base-content/80 intersect:motion-preset-slide-right intersect:motion-delay-[400ms] intersect:motion-ease-spring-bouncier">
-                  Fournir une expertise indépendante, rigoureuse et contextualisée afin de renforcer les capacités des acteurs en matière de maîtrise du terrain, de compréhension des enjeux, de développement de stratégies de prévention de la radicalisation, de l’extrémisme violent et du terrorisme, ainsi que de consolidation de la paix et de la cohésion sociale.
-
+                    Fournir une expertise indépendante, rigoureuse et
+                    contextualisée afin de renforcer les capacités des acteurs
+                    en matière de maîtrise du terrain, de compréhension des
+                    enjeux, de développement de stratégies de prévention de la
+                    radicalisation, de l’extrémisme violent et du terrorisme,
+                    ainsi que de consolidation de la paix et de la cohésion
+                    sociale.
                   </p>
                 </div>
               </div>
@@ -79,8 +87,12 @@ const About = () => {
                     Vision
                   </h2>
                   <p className="text-base-content/80 intersect:motion-preset-slide-left intersect:motion-delay-[400ms] intersect:motion-ease-spring-bouncier">
-                  Un Sahel résilient, pacifique et sécurisé, où les communautés sont immunisées contre les facteurs de radicalisation, d’extrémisme violent et de terrorisme, grâce à l’analyse, à la recherche, à l’étude, à la prévention, ainsi qu’à la coopération nationale, interrégionale, interétatique et interagences.
-
+                    Un Sahel résilient, pacifique et sécurisé, où les
+                    communautés sont immunisées contre les facteurs de
+                    radicalisation, d’extrémisme violent et de terrorisme, grâce
+                    à l’analyse, à la recherche, à l’étude, à la prévention,
+                    ainsi qu’à la coopération nationale, interrégionale,
+                    interétatique et interagences.
                   </p>
                 </div>
                 <div>
@@ -97,7 +109,7 @@ const About = () => {
       <Values />
       <div className="bg-base-100 py-8 sm:py-16 lg:py-12 intersect:motion-preset-slide-left  intersect:motion-delay-[300ms]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8  motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md">
-          <div className=" text-center mb-6">
+          <div className="text-center mb-6">
             <h2 className="text-base-content mb-4  bg-primary p-2 text-2xl font-semibold md:text-3xl lg:text-4xl">
               Notre équipe
             </h2>
@@ -164,9 +176,7 @@ const About = () => {
                 </h3>
                 <div className="divider"></div>
                 <div>
-                  <div
-                    className="flex gap-0.5 mx-auto text-center"
-                  >
+                  <div className="flex gap-0.5 mx-auto text-center">
                     <p className="text-base-content mb-1 font-medium">
                       Anthropologue - Expert
                     </p>
@@ -206,9 +216,7 @@ const About = () => {
                 </h3>
                 <div className="divider"></div>
                 <div>
-                  <div
-                    className="flex gap-0.5 mx-auto text-center text-center"
-                  >
+                  <div className="flex gap-0.5 mx-auto text-center text-center">
                     <p className="text-base-content mb-1 font-medium">
                       Sociologue - Expert
                     </p>
@@ -375,9 +383,7 @@ const About = () => {
                 </h3>
                 <div className="divider"></div>
                 <div>
-                  <div
-                    className="flex gap-0.5 mx-auto text-center"
-                  >
+                  <div className="flex gap-0.5 mx-auto text-center">
                     <p className="text-base-content mb-1 font-medium">
                       Expert Securitaire
                     </p>
