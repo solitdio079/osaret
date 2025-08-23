@@ -66,7 +66,7 @@ const Hero = () => {
               <p className="text-red-500 lg:text-lg font-bold max-w-3xl z-1 intersect:motion-preset-slide-right intersect:motion-delay-[600ms] intersect:motion-ease-spring-bouncier">
                 C'est un cabinet de consultation indépendant, spécialisé
                 dans l’analyse, l’étude et la recherche appliquée sur le
-                terrorisme au Sahel. Il réunit en son sein des experts
+                terrorisme au Sahel. Il réunit en son sein des experts et des académiciens
                 originaires des pays du Sahel, aux spécialités variées.
               </p>
 
