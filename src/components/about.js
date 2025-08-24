@@ -9,7 +9,8 @@ import team3 from "../images/team3.jpg";
 import team5 from "../images/team5.jpeg";
 import team6 from "../images/team6.jpeg";
 import team7 from "../images/team7.jpeg";
-import team8 from "../images/team8.jpeg";
+import team8 from "../images/team9.jpeg";
+import team9 from "../images/team8.jpeg";
 import cravateImg from "../images/cravate2.jpeg";
 import Values from "./values";
 const About = () => {
@@ -108,7 +109,7 @@ const About = () => {
       </div>
       <Values />
       <div className="bg-base-100 py-8 sm:py-16 lg:py-12 intersect:motion-preset-slide-left  intersect:motion-delay-[300ms]">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8  motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md">
+        <div className="mx-auto  max-w-7xl px-4 sm:px-6 lg:px-8  motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md">
           <div className="text-center mb-6">
             <h2 className="text-base-content mb-4  bg-primary p-2 text-2xl font-semibold md:text-3xl lg:text-4xl">
               Notre équipe
@@ -428,8 +429,7 @@ const About = () => {
                 <div className="divider"></div>
                 <div>
                   <div
-                    className="flex gap-0.5 mx-auto text-center
-"
+                    className="flex gap-0.5 mx-auto text-center"
                   >
                     <p className="text-base-content mb-1 font-medium">
                       Expert Securitaire
@@ -456,6 +456,52 @@ const About = () => {
                 </div>
               </div>
             </div>
+            <div className="card card-border hover:border-primary h-max shadow-none">
+              <figure className="bg-base-200 pt-2">
+                <img
+                  src={team9}
+                  alt="Jayden Lipshultz"
+                  className="h-60 w-auto"
+                />
+              </figure>
+              <div className="card-body gap-0.5 mx-auto text-center">
+                <h3 className="text-base-content text-center text-lg font-medium">
+                  Pr. François Wassouni
+                </h3>
+                <div className="divider"></div>
+                <div>
+                  <div
+                    className="flex gap-0.5 mx-auto text-center"
+                  >
+                    <p className="text-base-content mb-1 font-medium">
+                      Expert Prevention de l'Extremisme Violent
+                    </p>
+                    <span className="icon-[twemoji--flag-cameroon] size-8"></span>
+                  </div>
+                  <p className="text-base-content/80"> +237 675 35 53 91</p>
+                  <p className="text-base-content/80"> wassounifrancois@gmail.com</p>
+                </div>
+
+                <div className="card-actions h-5 gap-0.5 mx-auto text-center">
+                  <a href="#" className="text-accent">
+                    <span className="icon-[tabler--brand-facebook] size-5.5"></span>
+                  </a>
+                  <a href="#" className="text-primary">
+                    <span className="icon-[tabler--brand-twitter] size-5.5"></span>
+                  </a>
+                  <a href="#" className="text-base-content">
+                    <span className="icon-[tabler--brand-github] size-5.5"></span>
+                  </a>
+                  <a href="#" className="text-pink-500">
+                    <span className="icon-[tabler--brand-instagram] size-5.5"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+
+
           </div>
         </div>
       </div>
