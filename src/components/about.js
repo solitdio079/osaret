@@ -474,7 +474,7 @@ const About = () => {
                     className="flex gap-0.5 mx-auto text-center"
                   >
                     <p className="text-base-content mb-1 font-medium">
-                      Expert Prevention de l'Extremisme Violent
+                    Ph.D. en Histoire, Professeur titulaire des universités
                     </p>
                     <span className="icon-[twemoji--flag-cameroon] size-8"></span>
                   </div>

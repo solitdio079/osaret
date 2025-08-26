@@ -103,7 +103,7 @@ const IndexPage = () => {
                 </h5>
                 <p className="mb-4">
                   des partenariats et mobiliser des ressources pour soutenir les
-                  États du Sahel dans la prévention et la lutte contre le
+                  États du Sahel, les ONG et les associations dans la prévention et la lutte contre le
                   terrorisme
                 </p>
               </div>
