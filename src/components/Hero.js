@@ -64,10 +64,11 @@ const Hero = () => {
                 </svg>
               </h1>
               <p className="text-red-500 lg:text-lg font-bold max-w-3xl z-1 intersect:motion-preset-slide-right intersect:motion-delay-[600ms] intersect:motion-ease-spring-bouncier">
-                C'est un cabinet de consultation indépendant, spécialisé
-                dans l’analyse, l’étude et la recherche appliquée sur le
-                terrorisme au Sahel. Il réunit en son sein des experts et des académiciens
-                originaires des pays du Sahel, aux spécialités variées.
+                C'est un cabinet de consultation indépendant, spécialisé dans
+                l’analyse, l’étude et la recherche appliquée sur le terrorisme
+                au Sahel. Il regroupe en son sein des experts civils,
+                militaires, chercheurs et universitaires originaires des pays du
+                Sahel, aux spécialités variées.
               </p>
 
               <Link
@@ -79,9 +80,7 @@ const Hero = () => {
               </Link>
             </div>
             <div className="flex flex-col items-center justify-center gap-2 flex-nowrap overflowy-x-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_50px,_black_calc(100%-50px),transparent_100%)]">
-              <h1 className="text-white text-lg font-bold">
-                Nos Partenaires
-              </h1>
+              <h1 className="text-white text-lg font-bold">Nos Partenaires</h1>
               <ScrollLogos />
             </div>
           </div>
