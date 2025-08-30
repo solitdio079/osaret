@@ -63,7 +63,7 @@ const Hero = () => {
                   </defs>
                 </svg>
               </h1>
-              <p className="text-red-500 lg:text-lg font-bold max-w-3xl z-1 intersect:motion-preset-slide-right intersect:motion-delay-[600ms] intersect:motion-ease-spring-bouncier">
+              <p className="text-red-500 lg:text-md font-bold max-w-3xl z-1 intersect:motion-preset-slide-right intersect:motion-delay-[600ms] intersect:motion-ease-spring-bouncier">
                 C'est un cabinet de consultation indépendant, spécialisé dans
                 l’analyse, l’étude et la recherche appliquée sur le terrorisme
                 au Sahel. Il regroupe en son sein des experts civils,
