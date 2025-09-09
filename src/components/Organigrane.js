@@ -57,7 +57,7 @@ const people = [
   },
   {
     name: "Courtney Henry",
-    role: "Magistrat ( justuce & Droit de l'homme)",
+    role: "Magistrat ( justice & Droit de l'homme)",
     imageUrl:
       "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
   },
