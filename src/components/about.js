@@ -11,6 +11,8 @@ import team6 from "../images/team6.jpeg";
 import team7 from "../images/team7.jpeg";
 import team8 from "../images/team9.jpeg";
 import team9 from "../images/team8.jpeg";
+import team10 from "../images/team10.jpeg";
+import team11 from "../images/team11.jpeg";
 import cravateImg from "../images/cravate2.jpeg";
 import Values from "./values";
 const About = () => {
@@ -480,6 +482,95 @@ const About = () => {
                   </div>
                   <p className="text-base-content/80"> +237 675 35 53 91</p>
                   <p className="text-base-content/80"> wassounifrancois@gmail.com</p>
+                </div>
+
+                <div className="card-actions h-5 gap-0.5 mx-auto text-center">
+                  <a href="#" className="text-accent">
+                    <span className="icon-[tabler--brand-facebook] size-5.5"></span>
+                  </a>
+                  <a href="#" className="text-primary">
+                    <span className="icon-[tabler--brand-twitter] size-5.5"></span>
+                  </a>
+                  <a href="#" className="text-base-content">
+                    <span className="icon-[tabler--brand-github] size-5.5"></span>
+                  </a>
+                  <a href="#" className="text-pink-500">
+                    <span className="icon-[tabler--brand-instagram] size-5.5"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+            <div className="card card-border hover:border-primary h-max shadow-none">
+              <figure className="bg-base-200 pt-2">
+                <img
+                  src={team10}
+                  alt="Jayden Lipshultz"
+                  className="h-60 w-auto"
+                />
+              </figure>
+              <div className="card-body gap-0.5 mx-auto text-center">
+                <h3 className="text-base-content text-center text-lg font-medium">
+                AMEGAKPO Komivi Sémeko (Paul)
+                </h3>
+                <div className="divider"></div>
+                <div>
+                  <div
+                    className="flex gap-0.5 mx-auto text-center"
+                  >
+                    <p className="text-base-content mb-1 font-medium">
+                    Expert
+                    </p>
+                    <span className="icon-[twemoji--flag-togo] size-8"></span>
+                  </div>
+                  <p className="text-base-content/80">  +228 90812815</p>
+                  <p className="text-base-content/80">  amegakpopaul@gmail.com</p>
+                </div>
+
+                <div className="card-actions h-5 gap-0.5 mx-auto text-center">
+                  <a href="#" className="text-accent">
+                    <span className="icon-[tabler--brand-facebook] size-5.5"></span>
+                  </a>
+                  <a href="#" className="text-primary">
+                    <span className="icon-[tabler--brand-twitter] size-5.5"></span>
+                  </a>
+                  <a href="#" className="text-base-content">
+                    <span className="icon-[tabler--brand-github] size-5.5"></span>
+                  </a>
+                  <a href="#" className="text-pink-500">
+                    <span className="icon-[tabler--brand-instagram] size-5.5"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+            <div className="card card-border hover:border-primary h-max shadow-none">
+              <figure className="bg-base-200 pt-2">
+                <img
+                  src={team11}
+                  alt="Jayden Lipshultz"
+                  className="h-60 w-auto"
+                />
+              </figure>
+              <div className="card-body gap-0.5 mx-auto text-center">
+                <h3 className="text-base-content text-center text-lg font-medium">
+                Pinga ZONGO
+                </h3>
+                <div className="divider"></div>
+                <div>
+                  <div
+                    className="flex gap-0.5 mx-auto text-center"
+                  >
+                    <p className="text-base-content mb-1 font-medium">
+                    Inspecteur Principal de Sécurité Pénitentiaire,
+                    Directeur de la Prison de Haute Sécurité de Ouagadougou.
+                    </p>
+                    <span className="icon-[twemoji--flag-burkina-faso] size-8"></span>
+                  </div>
+                  <p className="text-base-content/80">  +226 77 05 07 37</p>
+                  <p className="text-base-content/80">  zongopinga1@yahoo.fr </p>
                 </div>
 
                 <div className="card-actions h-5 gap-0.5 mx-auto text-center">
