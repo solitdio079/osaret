@@ -32,22 +32,25 @@ const About = () => {
                       Historique
                     </h2>
                     <p className="text-base-content/80 text-left text-xl intersect:motion-preset-slide-left intersect:motion-delay-[500ms] intersect:motion-ease-spring-bouncier">
-                      Depuis 2021, plusieurs experts originaires du Sahel
+                      Depuis 2021, plusieurs experts civils, militaires,
+                      chercheurs et universitaires originaires du Sahel
                       collaborent de manière informelle dans le domaine de la
                       prévention de la radicalisation, de l’extrémisme violent
                       et du terrorisme, à travers des rencontres nationales et
-                      régionales. Ces échanges ont progressivement donné
+                      régionales (Sahel. Ces échanges ont progressivement donné
                       naissance à un pôle d’expertise et de compétences reconnu
                       dans ce domaine.
                     </p>
                     <p className="text-base-content/80 text-left text-xl intersect:motion-preset-slide-left intersect:motion-delay-[500ms] intersect:motion-ease-spring-bouncier">
-                      C’est afin de consolider ces acquis que le Cabinet OSARET
-                      a été créé par M. Fayké Papus SISSOKO, sociologue et
-                      expert en stratégie de prévention de la radicalisation et
-                      de l’extrémisme violent menant au terrorisme. Le cabinet
-                      est enregistré sous le numéro 42509191889097D, RCCM :
-                      MA.BKO.2525.5824 en République du Mali, avec une
-                      compétence étendue à l’ensemble de la région sahélienne.
+                    Il regroupe des experts civils,
+                      militaires, chercheurs et universitaires originaires des
+                      pays du Sahel, dotés de compétences diversifiées dans les
+                      domaines de la prévention de la radicalisation et de
+                      l’extrémisme violent, de la lutte contre le terrorisme,
+                      ainsi que du développement. Ce vaste réseau d’expertise
+                      sahélien a été créé dans le but de préserver et de
+                      renforcer ces acquis, avec une portée couvrant l’ensemble
+                      des pays de la région.
                     </p>
                   </div>
                 </div>
@@ -430,9 +433,7 @@ const About = () => {
                 </h3>
                 <div className="divider"></div>
                 <div>
-                  <div
-                    className="flex gap-0.5 mx-auto text-center"
-                  >
+                  <div className="flex gap-0.5 mx-auto text-center">
                     <p className="text-base-content mb-1 font-medium">
                       Expert Securitaire
                     </p>
@@ -472,16 +473,17 @@ const About = () => {
                 </h3>
                 <div className="divider"></div>
                 <div>
-                  <div
-                    className="flex gap-0.5 mx-auto text-center"
-                  >
+                  <div className="flex gap-0.5 mx-auto text-center">
                     <p className="text-base-content mb-1 font-medium">
-                    Ph.D. en Histoire, Professeur titulaire des universités
+                      Ph.D. en Histoire, Professeur titulaire des universités
                     </p>
                     <span className="icon-[twemoji--flag-cameroon] size-8"></span>
                   </div>
                   <p className="text-base-content/80"> +237 675 35 53 91</p>
-                  <p className="text-base-content/80"> wassounifrancois@gmail.com</p>
+                  <p className="text-base-content/80">
+                    {" "}
+                    wassounifrancois@gmail.com
+                  </p>
                 </div>
 
                 <div className="card-actions h-5 gap-0.5 mx-auto text-center">
@@ -500,7 +502,6 @@ const About = () => {
                 </div>
               </div>
             </div>
-
 
             <div className="card card-border hover:border-primary h-max shadow-none">
               <figure className="bg-base-200 pt-2">
@@ -512,20 +513,19 @@ const About = () => {
               </figure>
               <div className="card-body gap-0.5 mx-auto text-center">
                 <h3 className="text-base-content text-center text-lg font-medium">
-                AMEGAKPO Komivi Sémeko (Paul)
+                  AMEGAKPO Komivi Sémeko (Paul)
                 </h3>
                 <div className="divider"></div>
                 <div>
-                  <div
-                    className="flex gap-0.5 mx-auto text-center"
-                  >
-                    <p className="text-base-content mb-1 font-medium">
-                    Expert
-                    </p>
+                  <div className="flex gap-0.5 mx-auto text-center">
+                    <p className="text-base-content mb-1 font-medium">Expert</p>
                     <span className="icon-[twemoji--flag-togo] size-8"></span>
                   </div>
-                  <p className="text-base-content/80">  +228 90812815</p>
-                  <p className="text-base-content/80">  amegakpopaul@gmail.com</p>
+                  <p className="text-base-content/80"> +228 90812815</p>
+                  <p className="text-base-content/80">
+                    {" "}
+                    amegakpopaul@gmail.com
+                  </p>
                 </div>
 
                 <div className="card-actions h-5 gap-0.5 mx-auto text-center">
@@ -544,7 +544,6 @@ const About = () => {
                 </div>
               </div>
             </div>
-
 
             <div className="card card-border hover:border-primary h-max shadow-none">
               <figure className="bg-base-200 pt-2">
@@ -556,21 +555,19 @@ const About = () => {
               </figure>
               <div className="card-body gap-0.5 mx-auto text-center">
                 <h3 className="text-base-content text-center text-lg font-medium">
-                Pinga ZONGO
+                  Pinga ZONGO
                 </h3>
                 <div className="divider"></div>
                 <div>
-                  <div
-                    className="flex gap-0.5 mx-auto text-center"
-                  >
+                  <div className="flex gap-0.5 mx-auto text-center">
                     <p className="text-base-content mb-1 font-medium">
-                    Inspecteur Principal de Sécurité Pénitentiaire,
-                    Directeur de la Prison de Haute Sécurité de Ouagadougou.
+                      Inspecteur Principal de Sécurité Pénitentiaire, Directeur
+                      de la Prison de Haute Sécurité de Ouagadougou.
                     </p>
                     <span className="icon-[twemoji--flag-burkina-faso] size-8"></span>
                   </div>
-                  <p className="text-base-content/80">  +226 77 05 07 37</p>
-                  <p className="text-base-content/80">  zongopinga1@yahoo.fr </p>
+                  <p className="text-base-content/80"> +226 77 05 07 37</p>
+                  <p className="text-base-content/80"> zongopinga1@yahoo.fr </p>
                 </div>
 
                 <div className="card-actions h-5 gap-0.5 mx-auto text-center">
@@ -589,10 +586,6 @@ const About = () => {
                 </div>
               </div>
             </div>
-
-
-
-
           </div>
         </div>
       </div>
